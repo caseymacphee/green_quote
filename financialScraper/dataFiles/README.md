@@ -1,0 +1,1 @@
+Did some initial data cleaning - removed countries for which there was no disclosure score, performance band, or co2 numbers, also widened the cell widths, and made a pdf for easy viewing.
