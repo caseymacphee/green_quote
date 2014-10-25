@@ -3,14 +3,16 @@ import re
 import csv
 import datetime
 import pandas as pd
+import ystockquote
 from bs4 import BeautifulSoup
+import json
 
 ##Get some data and saving it to disk
 
 def load_files(symbolfilepaths, csvdelim = ","):
     """ 
 Takes a list of symbol file paths to respective csv files, and loads their content into a \
-dictionary of paths to lists containing the content of the csv. The delimeter of the csv files \
+dictionary of file-paths to lists containing the content of the csv. The delimeter of the csv files \
 defaults to a ','. 
     """
     index_lists = {}
@@ -45,7 +47,7 @@ Searches for all the table data for that company and returns a list of that info
             table_data_list.insert(0,formatted_date_stamp)
             data_lists[symbol] = table_data_list 
         else:
-            data_lists[symbol] = ['N/A']
+            data_lists[symbol] = 'N/A'
             #### Print symbol and n/a for reference ####
             print symbol, "\tN/A"
 
@@ -129,12 +131,76 @@ replacing them with the appropriate number value. The function then returns a ne
 
     return new_dictionary
 
+def get_quote(symbollist):
+    """
+Takes a list of symbols and uses ystockquote to request current stock information. \
+Returns a dictionary with the keys as symbols, and the values being a dictionary of current stock
+information. 
+    """
+    stock_dict = {}
+    for symbol in symbollist:
+        try:
+            stock_dict[symbol] = ystockquote.get_all(ticker)
+        else:
+            stock_dict[symbol] = "N/A"
+            print symbol, " Yahoo doesn't have this quote"
+        return stock_dict
 
-# keystats = readincleandata[[1,2,3,13,17,28,32,34]]
 
-# keystats = ['Symbol','Market Cap (intraday)', 'Enterprise Value', 'Profit Margin %','Revenue Variance', 'Debt/Equity (mrq)', 'Levered Free Cash Flow (ttm)', '52-Week Change']
+def get_d_prices(symbollist, country = "US"):
+    """
+Takes a list of symbols and uses the bloomberg api to get 4 minute stock information. \
+Returns a dictionary with the keys as symbols, and the values as a list of tuples (timestamp, price).\
+The default parameter for the country is US.
+    """
+    day_quote = {}
+    for symbol in symbollist:
+        url = "http://bloomberg.com/markets/chart/data/1D/" + symbol + ":" + country
+        resp = urllib2.urlopen(url)
+        if resp.getcode() == 200:
+            data = json.load(resp)
+            datapoints = data["data_values"]
+            day_quote[symbol] = datapoints
+        else:
+            print symbol, "\tN/A"
+            day_quote[symbol] = 'N/A'
+    return day_quote
 
-# elements  mrkt cap0, enterprise val 1, trailing pe 2,profit margin 11, debt to equity 25, current ratio 27, levered free cashflow 30,53
+def get_m_prices(symbollist, country = "US"):
+    """
+Takes a list of symbols and uses the bloomberg api to get the monthly stock information. \
+Returns a dictionary with the keys as symbols, and the values as a list of tuples (timestamp, price).\
+The default parameter for the country is US.
+    """
+    month_quote = {}
+    for symbol in symbollist:
+        url = "http://bloomberg.com/markets/chart/data/1M/" + symbol + ":" + country
+        resp = urllib2.urlopen(url)
+        if resp.getcode() == 200:
+            data = json.load(resp)
+            datapoints = data["data_values"]
+            month_quote[symbol] = datapoints
+        else:
+            print symbol, "\tN/A"
+            day_quote[symbol] = 'N/A'
+    return month_quote
 
-
+def get_y_prices(symbollist, country = "US"):
+    """
+Takes a list of symbols and uses the bloomberg api to get yearly stock information. \
+Returns a dictionary with the keys as symbols, and the values as a list of tuples (timestamp, price).\
+The default parameter for the country is US.
+    """
+    year_quote = {}
+    for symbol in symbollist:
+        url = "http://bloomberg.com/markets/chart/data/1Y/" + symbol + ":" + country
+        resp = urllib2.urlopen(url)
+        if resp.getcode() == 200:
+            data = json.load(resp)
+            datapoints = data["data_values"]
+            year_quote[symbol] = datapoints
+        else:
+            print symbol, "\tN/A"
+            year_quote[symbol] = 'N/A'
+    return year_quote
 

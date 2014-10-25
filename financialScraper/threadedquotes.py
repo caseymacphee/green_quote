@@ -19,7 +19,7 @@ def download(url):
 
 		try:
 			print url[0],datapoints
-			#print url[0],datapoints[len(datapoints)-1][1]
+			#print url[0],datapoints[len(datapoints)-1][1]]
 		except:
 			print 'no data for : ' + url[0]
 	except:
