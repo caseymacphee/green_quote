@@ -1,4 +1,4 @@
-BeautifulSoup==3.2.1
+beautifulsoup4==4.3.2
 gevent==1.0.1
 greenlet==0.4.5
 numpy==1.9.0
