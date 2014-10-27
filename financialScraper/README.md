@@ -1,1 +1,0 @@
-*** Pandas is a dependency for this script- do a pip install on your vm ***
