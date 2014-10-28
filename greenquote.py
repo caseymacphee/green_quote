@@ -1,10 +1,10 @@
-import sys
-import os
-from threading import Thread
+# import sys
+# import os
+# from threading import Thread
 from flask import Flask
-import pandas as pd
-sys.path.insert(0, "../financialScraper")
-from financialScraper import getqf
+# import pandas as pd
+# sys.path.insert(0, "../financialScraper")
+# from financialScraper import getqf
 #from sqlalchemy import create_engine
 
 app = Flask(__name__)
