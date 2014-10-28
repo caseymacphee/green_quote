@@ -28,7 +28,7 @@ display_val = u"Loading data..."
 
 @app.route('/')
 def hello():
-	return display_val
+	return u'hello'
 	
 
 if __name__ == "__main__":
