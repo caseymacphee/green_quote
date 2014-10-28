@@ -20,11 +20,12 @@ defaults to a ','.
         symbol_file.close()
         path = file.split('/')
         name = path[len(path)-1]
+
         name = name.split(csvdelim)
         index_lists[name[0]] = symbol_list
     return index_lists
 
-def get_data(symbollist, ext = ''):
+def get_data(symbollist, index_name, ext = ''):
     """
 Takes a list of symbols, and requests the key statistics page from yahoo for that company. \
 Searches for all the table data for that company and returns a dictionary of symbols for keys mapped to\
@@ -33,7 +34,7 @@ a list of statistical data for that information.
 
     data_lists = {}
     for index, symbol in enumerate(symbollist):
-        symbollist[index] = (symbol + ext, data_lists)
+        symbollist[index] = (symbol + ext, data_lists, index_name)
     pool = Pool(20)
         ##map symbol list to _get_data() fn. return tuple, with (symbol, statlist).
     
@@ -43,9 +44,10 @@ a list of statistical data for that information.
 def _get_data(param):
     symbol = param[0]
     data_lists = param[1]
+    index = param[2]
     url = "http://finance.yahoo.com/q/ks?s={}+Key+Statistics".format(symbol)
     try:
-        resp = urllib2.urlopen(url, timeout = 2)
+        resp = urllib2.urlopen(url, timeout = 5)
 
         if resp.getcode() == 200:
             htmltext = BeautifulSoup(resp.read())
@@ -55,7 +57,7 @@ def _get_data(param):
             formatted_date_stamp = current_date_time.strftime("%A %B %d, %Y")
             
             result_list.insert(0,formatted_date_stamp)
-            
+            full_symbol = symbol + ':' + index
             table_data_list = []
             table_data_list.append(formatted_date_stamp)
             keystatrows = set([1,2,3,12,16,19,20,22,27,31,33,35,36,37,38,42,43,50,51,52,56,57])
@@ -63,10 +65,11 @@ def _get_data(param):
                 if index in keystatrows:
                     table_data_list.append(stat.get_text())
             if len(table_data_list) < 2:
-                print symbol, "Not found"
+                print full_symbol, "Not found"
             else:
-                print symbol, "Got data"
-            data_lists[symbol] = table_data_list
+                print full_symbol, "Got data"
+            
+            data_lists[full_symbol] = table_data_list
         else:
             print resp.getcode(), symbol
     except:
@@ -143,18 +146,18 @@ replacing them with the appropriate number value. The function then returns a ne
 def run_stats(index_dict, table_labels):
 
     key_stats = pd.DataFrame.from_dict(index_dict, orient ='index')
-    key_stats.columns = table_labels
+    # key_stats.columns = table_labels
     return key_stats
 
 def scraper():
     indexlist = []
-    indexlist.append('dataFiles/nsdqctsymbols.csv')
-    indexlist.append('dataFiles/nsdqesymbols.csv')
-    indexlist.append('dataFiles/nyesymbols.csv')
-    indexlist.append('dataFiles/tsxogsymbols.csv')
-    indexlist.append('dataFiles/tsxctsymbols.csv')
-    indexlist.append('dataFiles/tsxvctsymbols.csv')
-    indexlist.append('dataFiles/tsxvogsymbols.csv')
+    indexlist.append('dataFiles/nsdqct.csv')
+    indexlist.append('dataFiles/nsdqe.csv')
+    indexlist.append('dataFiles/nye.csv')
+    indexlist.append('dataFiles/tsxog.csv')
+    indexlist.append('dataFiles/tsxct.csv')
+    indexlist.append('dataFiles/tsxvct.csv')
+    indexlist.append('dataFiles/tsxvog.csv')
 
     table_labels = [
     "Date Time Gathered",
@@ -218,19 +221,19 @@ def scraper():
     indexlist = load_files(indexlist)
 
     ##test grab##
-    testlist = ['dataFiles/nsdqctsymbols.csv']
+    testlist = ['dataFiles/nsdqct.csv']
     testindexlist = load_files(testlist)
     ##end here##
 
     qfindexdict = {}
     for index, symbollist in testindexlist.iteritems():
         print index
-        if index == 'tsxvctsymbols.csv' or index == 'tsxvogsymbols.csv':
-            qfindexdict[index] = get_data(symbollist, '.V')
-        elif index == 'tsxctsymbols.csv' or index == 'tsxogsymbols.csv':
-            qfindexdict[index] = get_data(symbollist, '.TO')
+        if index == 'tsxvct.csv' or index == 'tsxvog.csv':
+            qfindexdict[index] = get_data(symbollist, index, '.V')
+        elif index == 'tsxct.csv' or index == 'tsxog.csv':
+            qfindexdict[index] = get_data(symbollist, index, '.TO')
         else:
-            qfindexdict[index] = get_data(symbollist)
+            qfindexdict[index] = get_data(symbollist, index)
 
     pandas_dataframes = {}
     for index, companydict in qfindexdict.iteritems():
