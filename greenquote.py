@@ -5,7 +5,7 @@ from flask import Flask
 import pandas as pd
 sys.path.insert(0, "../financialScraper")
 from financialScraper import getqf
-from sqlalchemy import create_engine
+#from sqlalchemy import create_engine
 
 app = Flask(__name__)
 # app.config['DATABASE'] = os.environ.get(
@@ -13,7 +13,7 @@ app = Flask(__name__)
 # 	)
 # engine = create_engine(app.config['DATABASE'])
 
-display_val = "Loading data..."
+display_val = u"Loading data..."
 
 # def load_data():
 # 	dfdict = getqf.scraper()
