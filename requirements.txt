@@ -1,7 +1,17 @@
+Flask==0.10.1
+Jinja2==2.7.3
+MarkupSafe==0.23
 SQLAlchemy==0.9.8
+Werkzeug==0.9.6
+<<<<<<< HEAD
+=======
+argparse==1.2.1
+>>>>>>> a88e548f377eceb8206adeb73b21a3b38a2cac1f
 beautifulsoup4==4.3.2
 gevent==1.0.1
 greenlet==0.4.5
+gunicorn==19.1.1
+itsdangerous==0.24
 numpy==1.9.0
 pandas==0.15.0
 psycopg2==2.5.4
