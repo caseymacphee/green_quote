@@ -8,10 +8,10 @@ from financialScraper import getqf
 from sqlalchemy import create_engine
 
 app = Flask(__name__)
-app.config['DATABASE'] = os.environ.get(
-	'HEROKU_POSTGRESQL_GOLD_URL', ''
-	)
-engine = create_engine(app.config['DATABASE'])
+# app.config['DATABASE'] = os.environ.get(
+# 	'HEROKU_POSTGRESQL_GOLD_URL', ''
+# 	)
+# engine = create_engine(app.config['DATABASE'])
 
 display_val = "Loading data..."
 
