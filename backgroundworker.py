@@ -10,8 +10,8 @@ running = True
 
 engine = create_engine(os.environ.get('DATABASE_URL'))
 while running:
-	dfdict = getqf.scraper()
-	df = dfdict['nsdqct.csv']
-	df.to_sql(name='entries', con = engine, if_exists = 'replace')
+	companies_data_frame, stats_data_frame = getqf.scraper()
+	companies_data_frame.to_sql(name='companies', con = engine, if_exists = 'replace')
+	stats_data_frame.to_sql(name='stats', con = engine, if_exists = 'replace')
 
 

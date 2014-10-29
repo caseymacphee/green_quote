@@ -20,8 +20,7 @@ defaults to a ','.
         symbol_file.close()
         path = file.split('/')
         name = path[len(path)-1]
-
-        name = name.split(csvdelim)
+        name = name.split('.')
         index_lists[name[0]] = symbol_list
     return index_lists
 
@@ -63,7 +62,10 @@ def _get_data(param):
             keystatrows = set([1,2,3,12,16,19,20,22,27,31,33,35,36,37,38,42,43,50,51,52,56,57])
             for index, stat in enumerate(result_list):
                 if index in keystatrows:
-                    table_data_list.append(stat.get_text())
+                    stat_atom = stat.get_text()
+                    if stat_atom is None or stat_atom == 'N/A':
+                        stat_atom = 'NaN'
+                    table_data_list.append(stat_atom)
             if len(table_data_list) < 2:
                 print full_symbol, "Not found"
             else:
@@ -143,11 +145,32 @@ replacing them with the appropriate number value. The function then returns a ne
 
     return fltpoint_dict
 
-def run_stats(index_dict, table_labels):
+def run_stats(index_dicts):
 
-    key_stats = pd.DataFrame.from_dict(index_dict, orient ='index')
-    # key_stats.columns = table_labels
-    return key_stats
+    stat_dataframes = {}
+    for index, company_dict in index_dicts.iteritems():
+        index_df = pd.DataFrame.from_dict(company_dict, orient = 'index')
+        print index_df
+        stat_list = []
+        for header, column in index_df.iteritems():
+            try:
+                stat_list.append(column.mean())
+            except:
+                stat_list.append('No mean available')
+        stat_dataframes[index] = stat_list
+
+    NA_stat_frame = pd.DataFrame.from_dict(stat_dataframes, orient = 'index')
+    return NA_stat_frame
+
+def combine_indexes(index_list):
+    # print index_list[0]
+
+    NA_companies = index_list[0]
+
+    for index in xrange(1,len(index_list)):
+        NA_companies.update(index_list[index])
+    NA_companies_frame = pd.DataFrame.from_dict(NA_companies, orient = 'index')
+    return NA_companies_frame
 
 def scraper():
     indexlist = []
@@ -220,32 +243,44 @@ def scraper():
     "Last Split Date 3",]
     indexlist = load_files(indexlist)
 
-    ##test grab##
-    testlist = ['dataFiles/nsdqct.csv']
-    testindexlist = load_files(testlist)
-    ##end here##
+    # # ##test grab##
+    # testlist = ['dataFiles/nsdqct.csv']
+    # testindexlist = load_files(testlist)
+    # ##end here##
 
+    ##Get the data and store it in a dict of indexes to company symbols to lists of values ##
     qfindexdict = {}
-    for index, symbollist in testindexlist.iteritems():
+    for index, symbollist in indexlist.iteritems():
         print index
-        if index == 'tsxvct.csv' or index == 'tsxvog.csv':
+        if index == 'tsxvct' or index == 'tsxvog':
             qfindexdict[index] = get_data(symbollist, index, '.V')
-        elif index == 'tsxct.csv' or index == 'tsxog.csv':
+        elif index == 'tsxct' or index == 'tsxog':
             qfindexdict[index] = get_data(symbollist, index, '.TO')
         else:
             qfindexdict[index] = get_data(symbollist, index)
+    ## End data grab ##
 
-    pandas_dataframes = {}
+    ##Take dict of indexes to company symbols to lists of values and return a dataframe of stats ##
+    float_dict = {}
     for index, companydict in qfindexdict.iteritems():
-        float_dict = remove_number_symbols(companydict)
-        pandas_dataframes[index] = run_stats(float_dict, table_labels)
+        float_dict[index] = remove_number_symbols(companydict)
+    ## End int conversion ##
+    # Gather stats by index ##
+    NA_energy_stat_frame = run_stats(float_dict)
+    # Pool all companies ##
+    
+    qflist = []
+    for index, companies in qfindexdict.iteritems():
+        qflist.append(companies)
+
+    NA_energy_frame = combine_indexes(qflist)
 
     # labeledindexdicts = {}
     # for index, companydict in qfindexdict.iteritems():
     #     labeledindexdicts[index] = add_labels(companydict, table_labels)
 
     # return fltpointmarketdicts, labeledindexdicts, current_quotes, day_quotes, month_quotes, year_quotes
-    return pandas_dataframes
-
+    # return NA_energy_stat_frame, NA_energy_frame
+    return NA_energy_frame, NA_energy_stat_frame
 if __name__ == '__main__':
-    data_frames = scraper()
+    NA_companies_frame, NA_energy_stats = scraper()

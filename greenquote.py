@@ -11,10 +11,9 @@ app.config['DATABASE'] = os.environ.get(
 engine = create_engine(app.config['DATABASE'])
 
 def load_data():
-	output = pd.read_sql_query('SELECT * FROM entries', engine)
-	mean = output[[2]].mean()
-	display_val = u"The mean is :" + str(mean)
-	return display_val
+	companies_data_frame = pd.read_sql_query('SELECT * FROM companies', engine)
+	stats_data_frame = pd.read_sql_query('SELECT * FROM stats', engine)
+	return "Companies loaded!"
 
 @app.route('/')
 def run():
