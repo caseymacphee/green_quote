@@ -1,34 +1,27 @@
-# import sys
-# import os
-# from threading import Thread
+import os
 from flask import Flask
-# import pandas as pd
-# sys.path.insert(0, "../financialScraper")
-# from financialScraper import getqf
-#from sqlalchemy import create_engine
+import pandas as pd
+from sqlalchemy import create_engine
 
 app = Flask(__name__)
-# app.config['DATABASE'] = os.environ.get(
-# 	'HEROKU_POSTGRESQL_GOLD_URL', ''
-# 	)
-# engine = create_engine(app.config['DATABASE'])
+app.config['DATABASE'] = os.environ.get(
+	'DATABASE_URL', ''
+	)
 
-display_val = u"Loading data..."
+engine = create_engine(app.config['DATABASE'])
 
-# def load_data():
-# 	dfdict = getqf.scraper()
-# 	df = dfdict['nsdqct.csv']
-# 	df.to_sql(name='entries', con = engine, if_exists = 'replace')
-# 	output = pd.read_sql_query('SELECT * FROM entries', engine)
-# 	mean = output[[2]].mean()
-# 	display_val = u"The mean is :" + str(mean)
-
-# thread1 = Thread(target = load_data)
-# thread1.start()
+def load_data():
+	output = pd.read_sql_query('SELECT * FROM entries', engine)
+	mean = output[[2]].mean()
+	display_val = u"The mean is :" + str(mean)
+	return display_val
 
 @app.route('/')
-def hello():
-	return u'hello'
+def run():
+	try:
+		return load_data()
+	except:
+		return u'Loading... Come back later'
 	
 
 if __name__ == "__main__":
