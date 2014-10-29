@@ -251,7 +251,6 @@ def scraper():
     ##Get the data and store it in a dict of indexes to company symbols to lists of values ##
     qfindexdict = {}
     for index, symbollist in indexlist.iteritems():
-        print index
         if index == 'tsxvct' or index == 'tsxvog':
             qfindexdict[index] = get_data(symbollist, index, '.V')
         elif index == 'tsxct' or index == 'tsxog':
