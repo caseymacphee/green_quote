@@ -35,7 +35,7 @@ a list of statistical data for that information.
     data_lists = {}
     for index, symbol in enumerate(symbollist):
         symbollist[index] = (symbol + ext, data_lists, index_name)
-    pool = Pool(20)
+    pool = Pool(5)
         ##map symbol list to _get_data() fn. return tuple, with (symbol, statlist).
     
     pool.map(_get_data, symbollist)
