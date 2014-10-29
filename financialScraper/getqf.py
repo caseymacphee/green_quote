@@ -47,7 +47,7 @@ def _get_data(param):
     index = param[2]
     url = "http://finance.yahoo.com/q/ks?s={}+Key+Statistics".format(symbol)
     try:
-        resp = urllib2.urlopen(url, timeout = 5)
+        resp = urllib2.urlopen(url, timeout = 10)
 
         if resp.getcode() == 200:
             htmltext = BeautifulSoup(resp.read())
