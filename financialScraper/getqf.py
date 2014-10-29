@@ -150,7 +150,6 @@ def run_stats(index_dicts):
     stat_dataframes = {}
     for index, company_dict in index_dicts.iteritems():
         index_df = pd.DataFrame.from_dict(company_dict, orient = 'index')
-        print index_df
         stat_list = []
         for header, column in index_df.iteritems():
             try:
@@ -163,7 +162,6 @@ def run_stats(index_dicts):
     return NA_stat_frame
 
 def combine_indexes(index_list):
-    # print index_list[0]
 
     NA_companies = index_list[0]
 
