@@ -157,7 +157,6 @@ def run_stats(index_dicts):
             except:
                 stat_list.append('No mean available')
         stat_dataframes[index] = stat_list
-
     NA_stat_frame = pd.DataFrame.from_dict(stat_dataframes, orient = 'index')
     return NA_stat_frame
 
