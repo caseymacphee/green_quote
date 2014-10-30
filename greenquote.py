@@ -5,7 +5,7 @@ from flask import jsonify
 import psycopg2
 import json
 from json import load
-
+from flask import render_template
 app = Flask(__name__)
 
 app.config['DATABASE'] = os.environ.get(
@@ -41,12 +41,6 @@ table_labels = [
     "Last Split Factor 2",
     "Last Split Date 3",]
 
-def load_master_index():
-    json_data = open('masterjsonobject.json')
-    data = json.load(json_data)
-    json_data.close()
-    return data
-
 def connect_db():
 	return psycopg2.connect(app.config['DATABASE'])
 
@@ -76,7 +70,7 @@ def get_company_entry(id):
 
 @app.route('/')
 def show_indexes():
-	return load_master_index()
+    return render_template('base.html')
 
 @app.route('/<id>')
 def show_company_profile():
