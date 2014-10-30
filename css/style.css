@@ -1,0 +1,137 @@
+body {
+    color:#111;
+    padding:0;
+    margin:0}
+
+header {
+    margin:0;
+    padding:0 0.75em;
+    width:100%;}
+
+header:after {
+    content:"";
+    display:table;
+    clear:both;}
+
+header a {
+    text-decoration:none}
+
+header aside {
+    float:right;
+    text-align:right;
+    padding-right:0.75em}
+
+header ul {
+    list-style:none;
+    list-style-type:none;
+    display:inline-block}
+
+header ul li {
+    margin:0 0.25em 0 0}
+
+header ul li a {
+    padding:0;
+    display:inline-block}
+
+main {
+    padding:0 0.75em 1em}
+
+main:after {
+    content:"";
+    display:table;
+    clear:both}
+
+main article {
+    margin-bottom:1em;
+    padding-left:0.5em}
+
+main article h3 {
+    margin-top:0}
+
+main article .entry_body {
+    margin:0.5em}
+
+main aside {
+    float:right}
+
+main aside .field {
+    margin-bottom:1em}
+
+main aside .field input,
+main aside .field label,
+main aside .field textarea {
+    vertical-align:top}
+
+main aside .field label {
+    display:inline-block;
+    width:15%;
+    padding-top:2px}
+
+main aside .field input,
+main aside .field textarea {
+    width:83%}
+
+main aside .control_row input {
+    margin-left:16%}
+
+/* All the styling above came from learning_journal */
+.third, .indice {
+    width: 320px;
+    float: left;
+    text-align: center;
+}
+
+.indice p {
+    border-right: 1px solid #999;
+}
+
+#content .indice:last-child p {
+    border-right: none;
+}
+
+.third p {
+    padding: 0px 20px 0px 20px;
+    margin: 40px 0px 20px 0px;
+    text-align: left;
+    line-height: 1em;
+}
+
+#indice a {
+    display: block;
+    height: 120px;
+    width: 100%;
+    text-align: left;
+}
+
+#indice img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+#indice a:hover, #stocks:hover { color #1fb637; }
+#stocks ul {
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 0px 40px 0px;
+}
+#stocks li {
+    list-style-type: none;
+    padding: 20px 0px 20px 0px;
+    border-top: 1px solid #d6d6d6;
+    text-align: left;
+}
+#stocks li:first-child {
+    border-top: none;
+    padding: 2em;
+}
+#company div {
+    text-align: left;
+    padding: 2em 0em 0em 1em;
+}
+#company p {
+    padding: 0px;
+    margin: 0.8em 0em 0em 0em;
+}

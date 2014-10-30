@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block body %}
+  <h2>Stock Indices</h2>
+  {% for stock_index in stock_indices %}
+      <a href="{{ url_for('stock_index', stock_index_id=stock_index.id) }}">{{ stock_index_name[stock_index] }}</a>
+  {% endfor %}
+{% endblock %}
