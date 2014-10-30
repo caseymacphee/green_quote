@@ -1,0 +1,3156 @@
+{
+    "tsxct": {
+        "CMH": [
+            "CMH:tsxct", 
+            "Carmanah Technologies Corporation"
+        ], 
+        "CAS": [
+            "CAS:tsxct", 
+            "Cascades Inc."
+        ], 
+        "VFF": [
+            "VFF:tsxct", 
+            "Village Farms International Inc"
+        ], 
+        "ETX": [
+            "ETX:tsxct", 
+            "Etrion Corporation"
+        ], 
+        "AXY": [
+            "AXY:tsxct", 
+            "Alterra Power Corp."
+        ], 
+        "DRT": [
+            "DRT:tsxct", 
+            "DIRTT Environmental Solutions Ltd."
+        ], 
+        "NAL": [
+            "NAL:tsxct", 
+            "Newalta Corporation"
+        ], 
+        "BU": [
+            "BU:tsxct", 
+            "Burcon NutraScience Corporation"
+        ], 
+        "TMB": [
+            "TMB:tsxct", 
+            "Tembec Inc."
+        ], 
+        "AZP": [
+            "AZP:tsxct", 
+            "Atlantic Power Preferred Equity Ltd."
+        ], 
+        "BEP": [
+            "BEP:tsxct", 
+            "Brookfield Renewable Energy Partners  L.P."
+        ], 
+        "PEG": [
+            "PEG:tsxct", 
+            "Pattern Energy Group Inc."
+        ], 
+        "BX": [
+            "BX:tsxct", 
+            "BIOX Corporation"
+        ], 
+        "GLV": [
+            "GLV:tsxct", 
+            "GLV Inc."
+        ], 
+        "CPW": [
+            "CPW:tsxct", 
+            "Capstone Power Corp."
+        ], 
+        "CYT": [
+            "CYT:tsxct", 
+            "Catalyst Paper Corporation"
+        ], 
+        "WPT": [
+            "WPT:tsxct", 
+            "Westport Innovations Inc."
+        ], 
+        "SXI": [
+            "SXI:tsxct", 
+            "Synex International Inc."
+        ], 
+        "HYG": [
+            "HYG:tsxct", 
+            "Hydrogenics Corporation"
+        ], 
+        "PRI": [
+            "PRI:tsxct", 
+            "Primary Energy Recycling Corporation"
+        ], 
+        "GTH": [
+            "GTH:tsxct", 
+            "U.S. Geothermal Inc."
+        ], 
+        "RPG": [
+            "RPG:tsxct", 
+            "Ram Power Corp"
+        ], 
+        "VNP": [
+            "VNP:tsxct", 
+            "5N Plus Inc."
+        ], 
+        "SOY": [
+            "SOY:tsxct", 
+            "SunOpta Inc."
+        ], 
+        "AQN": [
+            "AQN:tsxct", 
+            "Algonquin Power & Utilities Corp"
+        ], 
+        "BQE": [
+            "BQE:tsxct", 
+            "BioteQ Environmental Technologies Inc."
+        ], 
+        "KPT": [
+            "KPT:tsxct", 
+            "KP Tissue Inc."
+        ], 
+        "BLX": [
+            "BLX:tsxct", 
+            "Boralex Inc."
+        ], 
+        "CSE": [
+            "CSE:tsxct", 
+            "Capstone Infrastructure Corporation"
+        ], 
+        "NFI": [
+            "NFI:tsxct", 
+            "New Flyer Industries Inc."
+        ], 
+        "EFL": [
+            "EFL:tsxct", 
+            "Electrovaya Inc."
+        ], 
+        "INE": [
+            "INE:tsxct", 
+            "Innergex Renewable Energy Inc."
+        ], 
+        "BLD": [
+            "BLD:tsxct", 
+            "Ballard Power Systems Inc."
+        ], 
+        "CLR": [
+            "CLR:tsxct", 
+            "Clearwater Seafoods Incorporated"
+        ], 
+        "PFB": [
+            "PFB:tsxct", 
+            "PFB Corporation"
+        ], 
+        "NPI": [
+            "NPI:tsxct", 
+            "Northland Power Inc."
+        ], 
+        "LMP": [
+            "LMP:tsxct", 
+            "Lumenpulse Inc."
+        ], 
+        "ORT": [
+            "ORT:tsxct", 
+            "Orbite Aluminae Inc."
+        ], 
+        "NRG": [
+            "NRG:tsxct", 
+            "Alter NRG Corp."
+        ], 
+        "ECO": [
+            "ECO:tsxct", 
+            "EcoSynthetix Inc"
+        ], 
+        "PUR": [
+            "PUR:tsxct", 
+            "Pure Technologies Ltd."
+        ], 
+        "BRF": [
+            "BRF:tsxct", 
+            "Brookfield Renewable Power Preferred Equity Inc"
+        ], 
+        "RNW": [
+            "RNW:tsxct", 
+            "TransAlta Renewables Inc."
+        ], 
+        "NPS": [
+            "NPS:tsxct", 
+            "Northern Power Systems Corp."
+        ]
+    }, 
+    "tsxog": {
+        "EFX": [
+            "EFX:tsxog", 
+            "Enerflex Ltd."
+        ], 
+        "HYD": [
+            "HYD:tsxog", 
+            "Hyduke Energy Services Inc."
+        ], 
+        "HNL": [
+            "HNL:tsxog", 
+            "Horizon North Logistics Inc."
+        ], 
+        "TOT": [
+            "TOT:tsxog", 
+            "Total Energy Services Inc."
+        ], 
+        "AKT": [
+            "AKT:tsxog", 
+            "Akita Drilling Ltd."
+        ], 
+        "BAD": [
+            "BAD:tsxog", 
+            "Badger Daylighting Ltd."
+        ], 
+        "HE": [
+            "HE:tsxog", 
+            "Hanwei Energy Services Corp."
+        ], 
+        "HWO": [
+            "HWO:tsxog", 
+            "High Arctic Energy Services Inc."
+        ], 
+        "TXL": [
+            "TXL:tsxog", 
+            "Tesla Exploration Ltd"
+        ], 
+        "SES": [
+            "SES:tsxog", 
+            "Secure Energy Services Inc."
+        ], 
+        "FAR": [
+            "FAR:tsxog", 
+            "Foraco International SA"
+        ], 
+        "TCW": [
+            "TCW:tsxog", 
+            "Trican Well Service Ltd."
+        ], 
+        "MCB": [
+            "MCB:tsxog", 
+            "McCoy Global Inc."
+        ], 
+        "PRW": [
+            "PRW:tsxog", 
+            "Petrowest Corporation"
+        ], 
+        "CEU": [
+            "CEU:tsxog", 
+            "Canadian Energy Services & Technology Corp"
+        ], 
+        "CET": [
+            "CET:tsxog", 
+            "Cathedral Energy Services Ltd"
+        ], 
+        "PD": [
+            "PD:tsxog", 
+            "Precision Drilling Corporation"
+        ], 
+        "GEI": [
+            "GEI:tsxog", 
+            "Gibson Energy Inc."
+        ], 
+        "SDY": [
+            "SDY:tsxog", 
+            "Strad Energy Services Ltd."
+        ], 
+        "GEO": [
+            "GEO:tsxog", 
+            "Geodrill Limited"
+        ], 
+        "CEZ": [
+            "CEZ:tsxog", 
+            "Calmena Energy Services Inc."
+        ], 
+        "FRC": [
+            "FRC:tsxog", 
+            "Canyon Services Group Inc."
+        ], 
+        "WRG": [
+            "WRG:tsxog", 
+            "Western Energy Services Corp."
+        ], 
+        "OGD": [
+            "OGD:tsxog", 
+            "Orbit Garant Drilling Inc."
+        ], 
+        "E": [
+            "E:tsxog", 
+            "Enterprise Group, Inc."
+        ], 
+        "TVK": [
+            "TVK:tsxog", 
+            "TerraVest Capital Inc."
+        ], 
+        "SCL": [
+            "SCL:tsxog", 
+            "ShawCor Ltd."
+        ], 
+        "XDC": [
+            "XDC:tsxog", 
+            "Xtreme Drilling and Coil Services Corp."
+        ], 
+        "LII": [
+            "LII:tsxog", 
+            "Logan International Inc."
+        ], 
+        "NOA": [
+            "NOA:tsxog", 
+            "North American Energy Partners Inc."
+        ], 
+        "MTL": [
+            "MTL:tsxog", 
+            "Mullen Group Ltd."
+        ], 
+        "SVY": [
+            "SVY:tsxog", 
+            "Savanna Energy Services Corp."
+        ], 
+        "ESN": [
+            "ESN:tsxog", 
+            "Essential Energy Services Ltd."
+        ], 
+        "ESI": [
+            "ESI:tsxog", 
+            "Ensign Energy Services Inc."
+        ], 
+        "PSI": [
+            "PSI:tsxog", 
+            "Pason Systems Inc."
+        ], 
+        "BRY": [
+            "BRY:tsxog", 
+            "Bri-Chem Corp."
+        ], 
+        "ZCL": [
+            "ZCL:tsxog", 
+            "ZCL Composites Inc."
+        ], 
+        "GFS": [
+            "GFS:tsxog", 
+            "GASFRAC Energy Services Inc."
+        ], 
+        "TDG": [
+            "TDG:tsxog", 
+            "Trinidad Drilling Ltd."
+        ], 
+        "CDI": [
+            "CDI:tsxog", 
+            "CanElson Drilling Inc"
+        ], 
+        "PSD": [
+            "PSD:tsxog", 
+            "Pulse Seismic Inc"
+        ], 
+        "ALA": [
+            "ALA:tsxog", 
+            "AltaGas Ltd."
+        ], 
+        "PHX": [
+            "PHX:tsxog", 
+            "PHX Energy Services Corp."
+        ], 
+        "MDI": [
+            "MDI:tsxog", 
+            "Major Drilling Group International Inc."
+        ], 
+        "CFW": [
+            "CFW:tsxog", 
+            "Calfrac Well Services Ltd."
+        ]
+    }, 
+    "nsdqe": {
+        "EOG": [
+            "EOG:nsdqe", 
+            "EOG Resources, Inc."
+        ], 
+        "MARPS": [
+            "MARPS:nsdqe", 
+            "Marine Petroleum Trust"
+        ], 
+        "GSJK": [
+            "GSJK:nsdqe", 
+            "Compressco Partners, L.P."
+        ], 
+        "WLT": [
+            "WLT:nsdqe", 
+            "Walter Energy, Inc."
+        ], 
+        "CPE": [
+            "CPE:nsdqe", 
+            "Callon Petroleum Company"
+        ], 
+        "CPG": [
+            "CPG:nsdqe", 
+            "Crescent Point Energy Corporation"
+        ], 
+        "WLL": [
+            "WLL:nsdqe", 
+            "Whiting Petroleum Corporation"
+        ], 
+        "WLB": [
+            "WLB:nsdqe", 
+            "Westmoreland Coal Company"
+        ], 
+        "EOX": [
+            "EOX:nsdqe", 
+            "Emerald Oil, Inc."
+        ], 
+        "TAT": [
+            "TAT:nsdqe", 
+            "Transatlantic Petroleum Ltd"
+        ], 
+        "ALDW": [
+            "ALDW:nsdqe", 
+            "Alon USA Partners, LP"
+        ], 
+        "PBFX": [
+            "PBFX:nsdqe", 
+            "PBF Logistics LP"
+        ], 
+        "BWC": [
+            "BWC:nsdqe", 
+            "Babcock & Wilcox Company (The)"
+        ], 
+        "SPN": [
+            "SPN:nsdqe", 
+            "Superior Energy Services, Inc."
+        ], 
+        "ZAZA": [
+            "ZAZA:nsdqe", 
+            "ZaZa Energy Corporation"
+        ], 
+        "GE": [
+            "GE:nsdqe", 
+            "General Electric Company"
+        ], 
+        "PSTR": [
+            "PSTR:nsdqe", 
+            "PostRock Energy Corporation"
+        ], 
+        "CLR": [
+            "CLR:nsdqe", 
+            "Continental Resources, Inc."
+        ], 
+        "AXAS": [
+            "AXAS:nsdqe", 
+            "Abraxas Petroleum Corporation"
+        ], 
+        "PACD": [
+            "PACD:nsdqe", 
+            "Pacific Drilling S.A."
+        ], 
+        "PTEN": [
+            "PTEN:nsdqe", 
+            "Patterson-UTI Energy, Inc."
+        ], 
+        "SNP": [
+            "SNP:nsdqe", 
+            "China Petroleum & Chemical Corporation"
+        ], 
+        "AMCF": [
+            "AMCF:nsdqe", 
+            "Andatee China Marine Fuel Services Corporation"
+        ], 
+        "RICE": [
+            "RICE:nsdqe", 
+            "Rice Energy Inc."
+        ], 
+        "USEG": [
+            "USEG:nsdqe", 
+            "U.S. Energy Corp."
+        ], 
+        "TSO": [
+            "TSO:nsdqe", 
+            "Tesoro Corporation"
+        ], 
+        "CMI": [
+            "CMI:nsdqe", 
+            "Cummins Inc."
+        ], 
+        "CHKR": [
+            "CHKR:nsdqe", 
+            "Chesapeake Granite Wash Trust"
+        ], 
+        "BBG": [
+            "BBG:nsdqe", 
+            "Bill Barrett Corporation"
+        ], 
+        "TPLM": [
+            "TPLM:nsdqe", 
+            "Triangle Petroleum Corporation"
+        ], 
+        "WRES": [
+            "WRES:nsdqe", 
+            "Warren Resources, Inc."
+        ], 
+        "VLO": [
+            "VLO:nsdqe", 
+            "Valero Energy Corporation"
+        ], 
+        "MPLX": [
+            "MPLX:nsdqe", 
+            "MPLX LP"
+        ], 
+        "TTI": [
+            "TTI:nsdqe", 
+            "Tetra Technologies, Inc."
+        ], 
+        "IPWR": [
+            "IPWR:nsdqe", 
+            "Ideal Power Inc."
+        ], 
+        "VLP": [
+            "VLP:nsdqe", 
+            "Valero Energy Partners LP"
+        ], 
+        "ZN": [
+            "ZN:nsdqe", 
+            "Zion Oil & Gas Inc"
+        ], 
+        "TRCH": [
+            "TRCH:nsdqe", 
+            "Torchlight Energy Resources, Inc."
+        ], 
+        "FTI": [
+            "FTI:nsdqe", 
+            "FMC Technologies, Inc."
+        ], 
+        "NFX": [
+            "NFX:nsdqe", 
+            "Newfield Exploration Company"
+        ], 
+        "NSLP": [
+            "NSLP:nsdqe", 
+            "New Source Energy Partners L.P."
+        ], 
+        "HLX": [
+            "HLX:nsdqe", 
+            "Helix Energy Solutions Group, Inc."
+        ], 
+        "INT": [
+            "INT:nsdqe", 
+            "World Fuel Services Corporation"
+        ], 
+        "NOG": [
+            "NOG:nsdqe", 
+            "Northern Oil and Gas, Inc."
+        ], 
+        "NOA": [
+            "NOA:nsdqe", 
+            "North American Energy Partners, Inc."
+        ], 
+        "NOV": [
+            "NOV:nsdqe", 
+            "National Oilwell Varco, Inc."
+        ], 
+        "MY": [
+            "MY:nsdqe", 
+            "China Ming Yang Wind Power Group Limited"
+        ], 
+        "MXC": [
+            "MXC:nsdqe", 
+            "Mexco Energy Corporation"
+        ], 
+        "DOM": [
+            "DOM:nsdqe", 
+            "Dominion Resources Black Warrior Trust"
+        ], 
+        "RES": [
+            "RES:nsdqe", 
+            "RPC, Inc."
+        ], 
+        "GLF": [
+            "GLF:nsdqe", 
+            "GulfMark Offshore, Inc."
+        ], 
+        "CWEI": [
+            "CWEI:nsdqe", 
+            "Clayton Williams Energy, Inc."
+        ], 
+        "REI": [
+            "REI:nsdqe", 
+            "Ring Energy, Inc."
+        ], 
+        "GLP": [
+            "GLP:nsdqe", 
+            "Global Partners LP"
+        ], 
+        "FI": [
+            "FI:nsdqe", 
+            "Frank&#39;s International N.V."
+        ], 
+        "ORIG": [
+            "ORIG:nsdqe", 
+            "Ocean Rig UDW Inc."
+        ], 
+        "SDPI": [
+            "SDPI:nsdqe", 
+            "Superior Drilling Products, Inc."
+        ], 
+        "WHX": [
+            "WHX:nsdqe", 
+            "Whiting USA Trust I"
+        ], 
+        "WHZ": [
+            "WHZ:nsdqe", 
+            "Whiting USA Trust II"
+        ], 
+        "TLLP": [
+            "TLLP:nsdqe", 
+            "Tesoro Logistics LP"
+        ], 
+        "VET": [
+            "VET:nsdqe", 
+            "Vermilion Energy Inc."
+        ], 
+        "SUSP": [
+            "SUSP:nsdqe", 
+            "Susser Petroleum Partners LP"
+        ], 
+        "TOT": [
+            "TOT:nsdqe", 
+            "TotalFinaElf, S.A."
+        ], 
+        "MVO": [
+            "MVO:nsdqe", 
+            "MV Oil Trust"
+        ], 
+        "SBR": [
+            "SBR:nsdqe", 
+            "Sabine Royalty Trust"
+        ], 
+        "ALJ": [
+            "ALJ:nsdqe", 
+            "Alon USA Energy, Inc."
+        ], 
+        "PAGP": [
+            "PAGP:nsdqe", 
+            "Plains Group Holdings, L.P."
+        ], 
+        "SARA": [
+            "SARA:nsdqe", 
+            "Saratoga Resources Inc"
+        ], 
+        "MMP": [
+            "MMP:nsdqe", 
+            "Magellan Midstream Partners L.P."
+        ], 
+        "SU": [
+            "SU:nsdqe", 
+            "Suncor Energy  Inc."
+        ], 
+        "NTI": [
+            "NTI:nsdqe", 
+            "Northern Tier Energy LP"
+        ], 
+        "SN": [
+            "SN:nsdqe", 
+            "Sanchez Energy Corporation"
+        ], 
+        "SM": [
+            "SM:nsdqe", 
+            "SM Energy Company"
+        ], 
+        "TLP": [
+            "TLP:nsdqe", 
+            "Transmontaigne Partners L.P."
+        ], 
+        "EVEP": [
+            "EVEP:nsdqe", 
+            "EV Energy Partners, L.P."
+        ], 
+        "SD": [
+            "SD:nsdqe", 
+            "Sandridge Energy Inc."
+        ], 
+        "BAS": [
+            "BAS:nsdqe", 
+            "Basic Energy Services, Inc."
+        ], 
+        "KOG": [
+            "KOG:nsdqe", 
+            "Kodiak Oil & Gas Corp."
+        ], 
+        "CAK": [
+            "CAK:nsdqe", 
+            "CAMAC Energy Inc."
+        ], 
+        "ERF": [
+            "ERF:nsdqe", 
+            "Enerplus Corporation"
+        ], 
+        "CAM": [
+            "CAM:nsdqe", 
+            "Cameron International Corporation"
+        ], 
+        "KOS": [
+            "KOS:nsdqe", 
+            "Kosmos Energy Ltd."
+        ], 
+        "PGN": [
+            "PGN:nsdqe", 
+            "Paragon Offshore plc"
+        ], 
+        "CELP": [
+            "CELP:nsdqe", 
+            "Cypress Energy Partners, L.P."
+        ], 
+        "PGH": [
+            "PGH:nsdqe", 
+            "Pengrowth Energy Corporation"
+        ], 
+        "BKEP": [
+            "BKEP:nsdqe", 
+            "Blueknight Energy Partners L.P., L.L.C."
+        ], 
+        "VNRAP": [
+            "VNRAP:nsdqe", 
+            "Vanguard Natural Resources LLC"
+        ], 
+        "HGT": [
+            "HGT:nsdqe", 
+            "Hugoton Royalty Trust"
+        ], 
+        "STO": [
+            "STO:nsdqe", 
+            "Statoil ASA"
+        ], 
+        "THR": [
+            "THR:nsdqe", 
+            "Thermon Group Holdings, Inc."
+        ], 
+        "YPF": [
+            "YPF:nsdqe", 
+            "YPF Sociedad Anonima"
+        ], 
+        "XOM": [
+            "XOM:nsdqe", 
+            "Exxon Mobil Corporation"
+        ], 
+        "BHI": [
+            "BHI:nsdqe", 
+            "Baker Hughes Incorporated"
+        ], 
+        "SEMG": [
+            "SEMG:nsdqe", 
+            "Semgroup Corporation"
+        ], 
+        "EGY": [
+            "EGY:nsdqe", 
+            "Vaalco Energy Inc"
+        ], 
+        "MIC": [
+            "MIC:nsdqe", 
+            "Macquarie Infrastructure Company LLC"
+        ], 
+        "EGN": [
+            "EGN:nsdqe", 
+            "Energen Corporation"
+        ], 
+        "DKL": [
+            "DKL:nsdqe", 
+            "Delek Logistics Partners, L.P."
+        ], 
+        "FXEN": [
+            "FXEN:nsdqe", 
+            "FX Energy, Inc."
+        ], 
+        "PLUG": [
+            "PLUG:nsdqe", 
+            "Plug Power, Inc."
+        ], 
+        "JOY": [
+            "JOY:nsdqe", 
+            "Joy Global Inc."
+        ], 
+        "WTI": [
+            "WTI:nsdqe", 
+            "W&T Offshore, Inc."
+        ], 
+        "CVRR": [
+            "CVRR:nsdqe", 
+            "CVR Refining, LP"
+        ], 
+        "DNOW": [
+            "DNOW:nsdqe", 
+            "NOW Inc."
+        ], 
+        "CHK": [
+            "CHK:nsdqe", 
+            "Chesapeake Energy Corporation"
+        ], 
+        "FELP": [
+            "FELP:nsdqe", 
+            "Foresight Energy LP"
+        ], 
+        "DAKP": [
+            "DAKP:nsdqe", 
+            "Dakota Plains Holdings, Inc."
+        ], 
+        "MRO": [
+            "MRO:nsdqe", 
+            "Marathon Oil Corporation"
+        ], 
+        "LPI": [
+            "LPI:nsdqe", 
+            "Laredo Petroleum, Inc."
+        ], 
+        "MRD": [
+            "MRD:nsdqe", 
+            "Memorial Resource Development Corp."
+        ], 
+        "LGCY": [
+            "LGCY:nsdqe", 
+            "Legacy Reserves LP"
+        ], 
+        "SFY": [
+            "SFY:nsdqe", 
+            "Swift Energy Company"
+        ], 
+        "ROSE": [
+            "ROSE:nsdqe", 
+            "Rosetta Resources Inc."
+        ], 
+        "IVAN": [
+            "IVAN:nsdqe", 
+            "Ivanhoe Energy, Inc."
+        ], 
+        "APC": [
+            "APC:nsdqe", 
+            "Anadarko Petroleum Corporation"
+        ], 
+        "APA": [
+            "APA:nsdqe", 
+            "Apache Corporation"
+        ], 
+        "GULTU": [
+            "GULTU:nsdqe", 
+            "Gulf Coast Ultra Deep Royalty Trust"
+        ], 
+        "MTDR": [
+            "MTDR:nsdqe", 
+            "Matador Resources Company"
+        ], 
+        "NGL": [
+            "NGL:nsdqe", 
+            "NGL ENERGY PARTNERS LP"
+        ], 
+        "HDY": [
+            "HDY:nsdqe", 
+            "HyperDynamics Corporation"
+        ], 
+        "EROC": [
+            "EROC:nsdqe", 
+            "Eagle Rock Energy Partners, L.P."
+        ], 
+        "NGS": [
+            "NGS:nsdqe", 
+            "Natural Gas Services Group, Inc."
+        ], 
+        "WFT": [
+            "WFT:nsdqe", 
+            "Weatherford International plc"
+        ], 
+        "CEO": [
+            "CEO:nsdqe", 
+            "CNOOC Limited"
+        ], 
+        "YZC": [
+            "YZC:nsdqe", 
+            "Yanzhou Coal Mining Company Limited"
+        ], 
+        "PKD": [
+            "PKD:nsdqe", 
+            "Parker Drilling Company"
+        ], 
+        "LNCO": [
+            "LNCO:nsdqe", 
+            "Linn Co, LLC"
+        ], 
+        "ENB": [
+            "ENB:nsdqe", 
+            "Enbridge Inc"
+        ], 
+        "OXY": [
+            "OXY:nsdqe", 
+            "Occidental Petroleum Corporation"
+        ], 
+        "EC": [
+            "EC:nsdqe", 
+            "Ecopetrol S.A."
+        ], 
+        "OXF": [
+            "OXF:nsdqe", 
+            "Oxford Resource Partners, LP"
+        ], 
+        "BTU": [
+            "BTU:nsdqe", 
+            "Peabody Energy Corporation"
+        ], 
+        "XCO": [
+            "XCO:nsdqe", 
+            "EXCO Resources NL"
+        ], 
+        "BTE": [
+            "BTE:nsdqe", 
+            "Baytex Energy Corp"
+        ], 
+        "SSL": [
+            "SSL:nsdqe", 
+            "Sasol Ltd."
+        ], 
+        "SSN": [
+            "SSN:nsdqe", 
+            "Samson Oil & Gas Limited"
+        ], 
+        "SSE": [
+            "SSE:nsdqe", 
+            "Seventy Seven Energy Inc."
+        ], 
+        "MUR": [
+            "MUR:nsdqe", 
+            "Murphy Oil Corporation"
+        ], 
+        "ATW": [
+            "ATW:nsdqe", 
+            "Atwood Oceanics, Inc."
+        ], 
+        "ESCR": [
+            "ESCR:nsdqe", 
+            "Escalera Resources Co."
+        ], 
+        "SEV": [
+            "SEV:nsdqe", 
+            "Sevcon, Inc."
+        ], 
+        "WPX": [
+            "WPX:nsdqe", 
+            "WPX Energy, Inc."
+        ], 
+        "ECA": [
+            "ECA:nsdqe", 
+            "Encana Corporation"
+        ], 
+        "WPT": [
+            "WPT:nsdqe", 
+            "World Point Terminals, LP"
+        ], 
+        "PVA": [
+            "PVA:nsdqe", 
+            "Penn Virginia Corporation"
+        ], 
+        "ECT": [
+            "ECT:nsdqe", 
+            "ECA Marcellus Trust I"
+        ], 
+        "ECR": [
+            "ECR:nsdqe", 
+            "Eclipse Resources Corporation"
+        ], 
+        "AREX": [
+            "AREX:nsdqe", 
+            "Approach Resources Inc."
+        ], 
+        "ARP": [
+            "ARP:nsdqe", 
+            "Atlas Resource Partners, L.P."
+        ], 
+        "BBL": [
+            "BBL:nsdqe", 
+            "BHP Billiton plc"
+        ], 
+        "UNT": [
+            "UNT:nsdqe", 
+            "Unit Corporation"
+        ], 
+        "GTE": [
+            "GTE:nsdqe", 
+            "Gran Tierra Energy Inc."
+        ], 
+        "VTG": [
+            "VTG:nsdqe", 
+            "Vantage Drilling Company"
+        ], 
+        "CLD": [
+            "CLD:nsdqe", 
+            "Cloud Peak Energy Inc"
+        ], 
+        "GTI": [
+            "GTI:nsdqe", 
+            "GrafTech International Ltd"
+        ], 
+        "PDS": [
+            "PDS:nsdqe", 
+            "Precision Drilling Corporation"
+        ], 
+        "IMO": [
+            "IMO:nsdqe", 
+            "Imperial Oil Limited"
+        ], 
+        "TLM": [
+            "TLM:nsdqe", 
+            "Talisman Energy Inc."
+        ], 
+        "AETI": [
+            "AETI:nsdqe", 
+            "American Electric Technologies, Inc."
+        ], 
+        "WNRL": [
+            "WNRL:nsdqe", 
+            "Western Refining Logistics, LP"
+        ], 
+        "KEG": [
+            "KEG:nsdqe", 
+            "Key Energy Services, Inc."
+        ], 
+        "HNRG": [
+            "HNRG:nsdqe", 
+            "Hallador Energy Company"
+        ], 
+        "VNRBP": [
+            "VNRBP:nsdqe", 
+            "Vanguard Natural Resources LLC"
+        ], 
+        "DO": [
+            "DO:nsdqe", 
+            "Diamond Offshore Drilling, Inc."
+        ], 
+        "DK": [
+            "DK:nsdqe", 
+            "Delek US Holdings, Inc."
+        ], 
+        "SWN": [
+            "SWN:nsdqe", 
+            "Southwestern Energy Company"
+        ], 
+        "DWSN": [
+            "DWSN:nsdqe", 
+            "Dawson Geophysical Company"
+        ], 
+        "BPL": [
+            "BPL:nsdqe", 
+            "Buckeye Partners L.P."
+        ], 
+        "AAV": [
+            "AAV:nsdqe", 
+            "Advantage Oil & Gas Ltd"
+        ], 
+        "BPT": [
+            "BPT:nsdqe", 
+            "BP Prudhoe Bay Royalty Trust"
+        ], 
+        "HERO": [
+            "HERO:nsdqe", 
+            "Hercules Offshore, Inc."
+        ], 
+        "SAEX": [
+            "SAEX:nsdqe", 
+            "SAExploration Holdings, Inc."
+        ], 
+        "KWK": [
+            "KWK:nsdqe", 
+            "Quicksilver Resources Inc."
+        ], 
+        "MGEE": [
+            "MGEE:nsdqe", 
+            "MGE Energy Inc."
+        ], 
+        "TGC": [
+            "TGC:nsdqe", 
+            "Tengasco, Inc."
+        ], 
+        "TGA": [
+            "TGA:nsdqe", 
+            "Transglobe Energy Corp"
+        ], 
+        "TGE": [
+            "TGE:nsdqe", 
+            "TGC Industries, Inc."
+        ], 
+        "GLRI": [
+            "GLRI:nsdqe", 
+            "Glori Energy Inc"
+        ], 
+        "VTTI": [
+            "VTTI:nsdqe", 
+            "VTTI Energy Partners LP"
+        ], 
+        "CLB": [
+            "CLB:nsdqe", 
+            "Core Laboratories N.V."
+        ], 
+        "HOLI": [
+            "HOLI:nsdqe", 
+            "Hollysys Automation Technologies, Ltd."
+        ], 
+        "MILL": [
+            "MILL:nsdqe", 
+            "Miller Energy Resources, Inc."
+        ], 
+        "SLB": [
+            "SLB:nsdqe", 
+            "Schlumberger N.V."
+        ], 
+        "TESO": [
+            "TESO:nsdqe", 
+            "Tesco Corporation"
+        ], 
+        "RSPP": [
+            "RSPP:nsdqe", 
+            "RSP Permian, Inc."
+        ], 
+        "BBEPP": [
+            "BBEPP:nsdqe", 
+            "BreitBurn Energy Partners, L.P."
+        ], 
+        "NRP": [
+            "NRP:nsdqe", 
+            "Natural Resource Partners LP"
+        ], 
+        "NRT": [
+            "NRT:nsdqe", 
+            "North European Oil Royality Trust"
+        ], 
+        "WG": [
+            "WG:nsdqe", 
+            "Willbros Group, Inc."
+        ], 
+        "BGG": [
+            "BGG:nsdqe", 
+            "Briggs & Stratton Corporation"
+        ], 
+        "PAA": [
+            "PAA:nsdqe", 
+            "Plains All American Pipeline, L.P."
+        ], 
+        "CKX": [
+            "CKX:nsdqe", 
+            "CKX Lands, Inc."
+        ], 
+        "EMES": [
+            "EMES:nsdqe", 
+            "Emerge Energy Services LP"
+        ], 
+        "ENSV": [
+            "ENSV:nsdqe", 
+            "ENSERVCO Corporation"
+        ], 
+        "VNR": [
+            "VNR:nsdqe", 
+            "Vanguard Natural Resources LLC"
+        ], 
+        "PZE": [
+            "PZE:nsdqe", 
+            "Petrobras Argentina S.A."
+        ], 
+        "RIG": [
+            "RIG:nsdqe", 
+            "Transocean Ltd."
+        ], 
+        "HAL": [
+            "HAL:nsdqe", 
+            "Halliburton Company"
+        ], 
+        "FXENP": [
+            "FXENP:nsdqe", 
+            "FX Energy, Inc."
+        ], 
+        "EQT": [
+            "EQT:nsdqe", 
+            "EQT Corporation"
+        ], 
+        "OII": [
+            "OII:nsdqe", 
+            "Oceaneering International, Inc."
+        ], 
+        "PHG": [
+            "PHG:nsdqe", 
+            "Koninklijke Philips N.V."
+        ], 
+        "PHX": [
+            "PHX:nsdqe", 
+            "Panhandle Royalty Company"
+        ], 
+        "BP": [
+            "BP:nsdqe", 
+            "BP p.l.c."
+        ], 
+        "OIS": [
+            "OIS:nsdqe", 
+            "Oil States International, Inc."
+        ], 
+        "RGP": [
+            "RGP:nsdqe", 
+            "Regency Energy Partners LP"
+        ], 
+        "MMLP": [
+            "MMLP:nsdqe", 
+            "Martin Midstream Partners L.P."
+        ], 
+        "CRT": [
+            "CRT:nsdqe", 
+            "Cross Timbers Royalty Trust"
+        ], 
+        "GPRK": [
+            "GPRK:nsdqe", 
+            "Geopark Ltd"
+        ], 
+        "GBR": [
+            "GBR:nsdqe", 
+            "New Concept Energy, Inc"
+        ], 
+        "GPOR": [
+            "GPOR:nsdqe", 
+            "Gulfport Energy Corporation"
+        ], 
+        "EMR": [
+            "EMR:nsdqe", 
+            "Emerson Electric Company"
+        ], 
+        "CRK": [
+            "CRK:nsdqe", 
+            "Comstock Resources, Inc."
+        ], 
+        "LINE": [
+            "LINE:nsdqe", 
+            "Linn Energy, LLC"
+        ], 
+        "PQ": [
+            "PQ:nsdqe", 
+            "Petroquest Energy Inc"
+        ], 
+        "FANG": [
+            "FANG:nsdqe", 
+            "Diamondback Energy, Inc."
+        ], 
+        "SDRL": [
+            "SDRL:nsdqe", 
+            "Seadrill Limited"
+        ], 
+        "WNR": [
+            "WNR:nsdqe", 
+            "Western Refining, Inc."
+        ], 
+        "PE": [
+            "PE:nsdqe", 
+            "Parsley Energy, Inc."
+        ], 
+        "GEL": [
+            "GEL:nsdqe", 
+            "Genesis Energy, L.P."
+        ], 
+        "ROYT": [
+            "ROYT:nsdqe", 
+            "Pacific Coast Oil Trust"
+        ], 
+        "SDLP": [
+            "SDLP:nsdqe", 
+            "Seadrill Partners LLC"
+        ], 
+        "MHR": [
+            "MHR:nsdqe", 
+            "Magnum Hunter Resources Corporation"
+        ], 
+        "ROYL": [
+            "ROYL:nsdqe", 
+            "Royale Energy, Inc."
+        ], 
+        "RNO": [
+            "RNO:nsdqe", 
+            "Rhino Resource Partners LP"
+        ], 
+        "MPET": [
+            "MPET:nsdqe", 
+            "Magellan Petroleum Corporation"
+        ], 
+        "WWD": [
+            "WWD:nsdqe", 
+            "Woodward, Inc."
+        ], 
+        "APAGF": [
+            "APAGF:nsdqe", 
+            "Apco Oil and Gas International Inc."
+        ], 
+        "ANW": [
+            "ANW:nsdqe", 
+            "Aegean Marine Petroleum Network Inc."
+        ], 
+        "ANR": [
+            "ANR:nsdqe", 
+            "Alpha Natural Resources, inc."
+        ], 
+        "RCON": [
+            "RCON:nsdqe", 
+            "Recon Technology, Ltd."
+        ], 
+        "COP": [
+            "COP:nsdqe", 
+            "ConocoPhillips"
+        ], 
+        "DVN": [
+            "DVN:nsdqe", 
+            "Devon Energy Corporation"
+        ], 
+        "NADL": [
+            "NADL:nsdqe", 
+            "North Atlantic Drilling Ltd."
+        ], 
+        "VNOM": [
+            "VNOM:nsdqe", 
+            "Viper Energy Partners LP"
+        ], 
+        "PER": [
+            "PER:nsdqe", 
+            "SandRidge Permian Trust"
+        ], 
+        "PES": [
+            "PES:nsdqe", 
+            "Pioneer Energy Services Corp."
+        ], 
+        "HNR": [
+            "HNR:nsdqe", 
+            "Harvest Natural Resources Inc"
+        ], 
+        "FST": [
+            "FST:nsdqe", 
+            "Forest Oil Corporation"
+        ], 
+        "KMR": [
+            "KMR:nsdqe", 
+            "Kinder Morgan Management, LLC"
+        ], 
+        "COG": [
+            "COG:nsdqe", 
+            "Cabot Oil & Gas Corporation"
+        ], 
+        "PED": [
+            "PED:nsdqe", 
+            "Pedevco Corp."
+        ], 
+        "REXX": [
+            "REXX:nsdqe", 
+            "Rex Energy Corporation"
+        ], 
+        "LLEX": [
+            "LLEX:nsdqe", 
+            "Lilis Energy, Inc."
+        ], 
+        "QEP": [
+            "QEP:nsdqe", 
+            "QEP Resources, Inc."
+        ], 
+        "HEP": [
+            "HEP:nsdqe", 
+            "Holly Energy Partners, L.P."
+        ], 
+        "HES": [
+            "HES:nsdqe", 
+            "Hess Corporation"
+        ], 
+        "IEP": [
+            "IEP:nsdqe", 
+            "Icahn Enterprises L.P."
+        ], 
+        "ESCRP": [
+            "ESCRP:nsdqe", 
+            "Escalera Resources Co."
+        ], 
+        "BLDP": [
+            "BLDP:nsdqe", 
+            "Ballard Power Systems, Inc."
+        ], 
+        "OILT": [
+            "OILT:nsdqe", 
+            "Oiltanking Partners, L.P."
+        ], 
+        "SRLP": [
+            "SRLP:nsdqe", 
+            "Sprague Resources LP"
+        ], 
+        "CVX": [
+            "CVX:nsdqe", 
+            "Chevron Corporation"
+        ], 
+        "ARCX": [
+            "ARCX:nsdqe", 
+            "Arc Logistic Partners LP"
+        ], 
+        "SYRG": [
+            "SYRG:nsdqe", 
+            "Synergy Resources Corporation"
+        ], 
+        "CVI": [
+            "CVI:nsdqe", 
+            "CVR Energy Inc."
+        ], 
+        "CVE": [
+            "CVE:nsdqe", 
+            "Cenovus Energy Inc"
+        ], 
+        "BXE": [
+            "BXE:nsdqe", 
+            "Bellatrix Exploration Ltd"
+        ], 
+        "NSH": [
+            "NSH:nsdqe", 
+            "Nustar GP Holdings, LLC"
+        ], 
+        "BPZ": [
+            "BPZ:nsdqe", 
+            "BPZ Resources, Inc"
+        ], 
+        "QRE": [
+            "QRE:nsdqe", 
+            "QR Energy, LP"
+        ], 
+        "PSX": [
+            "PSX:nsdqe", 
+            "Phillips 66"
+        ], 
+        "SOQ": [
+            "SOQ:nsdqe", 
+            "Sonde Resources Corp"
+        ], 
+        "MEMP": [
+            "MEMP:nsdqe", 
+            "Memorial Production Partners LP"
+        ], 
+        "NSS": [
+            "NSS:nsdqe", 
+            "NuStar Logistics, L.P."
+        ], 
+        "MTR": [
+            "MTR:nsdqe", 
+            "Mesa Royalty Trust"
+        ], 
+        "BCEI": [
+            "BCEI:nsdqe", 
+            "Bonanza Creek Energy, Inc."
+        ], 
+        "IO": [
+            "IO:nsdqe", 
+            "Ion Geophysical Corporation"
+        ], 
+        "EXXI": [
+            "EXXI:nsdqe", 
+            "Energy XXI (Bermuda) Limited"
+        ], 
+        "SDT": [
+            "SDT:nsdqe", 
+            "SandRidge Mississippian Trust I"
+        ], 
+        "SDR": [
+            "SDR:nsdqe", 
+            "SandRidge Mississippian Trust II"
+        ], 
+        "PWE": [
+            "PWE:nsdqe", 
+            "Penn West Petroleum Ltd"
+        ], 
+        "GST": [
+            "GST:nsdqe", 
+            "Gastar Exploration Inc."
+        ], 
+        "BC": [
+            "BC:nsdqe", 
+            "Brunswick Corporation"
+        ], 
+        "DRQ": [
+            "DRQ:nsdqe", 
+            "Dril-Quip, Inc."
+        ], 
+        "CPE-A": [
+            "CPE-A:nsdqe", 
+            "Callon Petroleum Company"
+        ], 
+        "EPM": [
+            "EPM:nsdqe", 
+            "Evolution Petroleum Corporation, Inc."
+        ], 
+        "OAS": [
+            "OAS:nsdqe", 
+            "Oasis Petroleum Inc."
+        ], 
+        "PARR": [
+            "PARR:nsdqe", 
+            "Par Petroleum Corporation"
+        ], 
+        "CLMT": [
+            "CLMT:nsdqe", 
+            "Calumet Specialty Products Partners, L.P."
+        ], 
+        "CPST": [
+            "CPST:nsdqe", 
+            "Capstone Turbine Corporation"
+        ], 
+        "DRC": [
+            "DRC:nsdqe", 
+            "Dresser-Rand Group Inc."
+        ], 
+        "EPE": [
+            "EPE:nsdqe", 
+            "EP Energy Corporation"
+        ], 
+        "CRZO": [
+            "CRZO:nsdqe", 
+            "Carrizo Oil & Gas, Inc."
+        ], 
+        "SXL": [
+            "SXL:nsdqe", 
+            "Sunoco Logistics Partners LP"
+        ], 
+        "ATHL": [
+            "ATHL:nsdqe", 
+            "ATHLON ENERGY INC."
+        ], 
+        "ADGE": [
+            "ADGE:nsdqe", 
+            "American DG Energy Inc."
+        ], 
+        "IOC": [
+            "IOC:nsdqe", 
+            "InterOil Corporation"
+        ], 
+        "NDRO": [
+            "NDRO:nsdqe", 
+            "Enduro Royalty Trust"
+        ], 
+        "CYD": [
+            "CYD:nsdqe", 
+            "China Yuchai International Limited"
+        ], 
+        "BBEP": [
+            "BBEP:nsdqe", 
+            "BreitBurn Energy Partners, L.P."
+        ], 
+        "BOLT": [
+            "BOLT:nsdqe", 
+            "Bolt Technology Corporation"
+        ], 
+        "TREC": [
+            "TREC:nsdqe", 
+            "Trecora Resources"
+        ], 
+        "CXO": [
+            "CXO:nsdqe", 
+            "Concho Resources Inc."
+        ], 
+        "HP": [
+            "HP:nsdqe", 
+            "Helmerich & Payne, Inc."
+        ], 
+        "EEQ": [
+            "EEQ:nsdqe", 
+            "Enbridge Energy Management LLC"
+        ], 
+        "EEP": [
+            "EEP:nsdqe", 
+            "Enbridge Energy, L.P."
+        ], 
+        "HK": [
+            "HK:nsdqe", 
+            "Halcon Resources Corporation"
+        ], 
+        "DEJ": [
+            "DEJ:nsdqe", 
+            "Dejour Energy Inc."
+        ], 
+        "MWE": [
+            "MWE:nsdqe", 
+            "MarkWest Energy Partners, LP"
+        ], 
+        "WPRT": [
+            "WPRT:nsdqe", 
+            "Westport Innovations Inc"
+        ], 
+        "AE": [
+            "AE:nsdqe", 
+            "Adams Resources & Energy, Inc."
+        ], 
+        "LGCYP": [
+            "LGCYP:nsdqe", 
+            "Legacy Reserves LP"
+        ], 
+        "PBR/A": [
+            "PBR/A:nsdqe", 
+            "Petroleo Brasileiro S.A.- Petrobras"
+        ], 
+        "DVR": [
+            "DVR:nsdqe", 
+            "Cal Dive International, Inc."
+        ], 
+        "PTR": [
+            "PTR:nsdqe", 
+            "PetroChina Company Limited"
+        ], 
+        "LGCYO": [
+            "LGCYO:nsdqe", 
+            "Legacy Reserves LP"
+        ], 
+        "PBT": [
+            "PBT:nsdqe", 
+            "Permian Basin Royalty Trust"
+        ], 
+        "UPL": [
+            "UPL:nsdqe", 
+            "Ultra Petroleum Corp."
+        ], 
+        "PBR": [
+            "PBR:nsdqe", 
+            "Petroleo Brasileiro S.A.- Petrobras"
+        ], 
+        "PBF": [
+            "PBF:nsdqe", 
+            "PBF Energy Inc."
+        ], 
+        "PBA": [
+            "PBA:nsdqe", 
+            "Pembina Pipeline Corp."
+        ], 
+        "LRE": [
+            "LRE:nsdqe", 
+            "LRR Energy, L.P."
+        ], 
+        "MPC": [
+            "MPC:nsdqe", 
+            "Marathon Petroleum Corporation"
+        ], 
+        "AHGP": [
+            "AHGP:nsdqe", 
+            "Alliance Holdings GP, L.P."
+        ], 
+        "VOC": [
+            "VOC:nsdqe", 
+            "VOC Energy Trust"
+        ], 
+        "MPO": [
+            "MPO:nsdqe", 
+            "Midstates Petroleum Company, Inc."
+        ], 
+        "BKEPP": [
+            "BKEPP:nsdqe", 
+            "Blueknight Energy Partners L.P., L.L.C."
+        ], 
+        "PSIX": [
+            "PSIX:nsdqe", 
+            "Power Solutions International, Inc."
+        ], 
+        "ENRJ": [
+            "ENRJ:nsdqe", 
+            "EnerJex Resources, Inc."
+        ], 
+        "AT": [
+            "AT:nsdqe", 
+            "Atlantic Power Corporation"
+        ], 
+        "ESTE": [
+            "ESTE:nsdqe", 
+            "Earthstone Energy, Inc."
+        ], 
+        "ACI": [
+            "ACI:nsdqe", 
+            "Arch Coal, Inc."
+        ], 
+        "WLBPZ": [
+            "WLBPZ:nsdqe", 
+            "Westmoreland Coal Company"
+        ], 
+        "HFC": [
+            "HFC:nsdqe", 
+            "HollyFrontier Corporation"
+        ], 
+        "NES": [
+            "NES:nsdqe", 
+            "Nuverra Environmental Solutions, Inc."
+        ], 
+        "REN           ": [
+            "REN           :nsdqe", 
+            "Resolute Energy Corporation"
+        ], 
+        "NBR": [
+            "NBR:nsdqe", 
+            "Nabors Industries Ltd."
+        ], 
+        "RRC": [
+            "RRC:nsdqe", 
+            "Range Resources Corporation"
+        ], 
+        "NE": [
+            "NE:nsdqe", 
+            "Noble Corporation"
+        ], 
+        "CGG": [
+            "CGG:nsdqe", 
+            "CGG"
+        ], 
+        "CJES": [
+            "CJES:nsdqe", 
+            "C&J Energy Services, Inc."
+        ], 
+        "NBL": [
+            "NBL:nsdqe", 
+            "Noble Energy Inc."
+        ], 
+        "DMLP": [
+            "DMLP:nsdqe", 
+            "Dorchester Minerals, L.P."
+        ], 
+        "NR": [
+            "NR:nsdqe", 
+            "Newpark Resources, Inc."
+        ], 
+        "NS": [
+            "NS:nsdqe", 
+            "Nustar Energy L.P."
+        ], 
+        "SJT": [
+            "SJT:nsdqe", 
+            "San Juan Basin Royalty Trust"
+        ], 
+        "FET": [
+            "FET:nsdqe", 
+            "Forum Energy Technologies, Inc."
+        ], 
+        "FES": [
+            "FES:nsdqe", 
+            "Forbes Energy Services Ltd"
+        ], 
+        "RDC": [
+            "RDC:nsdqe", 
+            "Rowan Companies plc"
+        ], 
+        "DNR": [
+            "DNR:nsdqe", 
+            "Denbury Resources Inc."
+        ], 
+        "HUSA": [
+            "HUSA:nsdqe", 
+            "Houston American Energy Corporation"
+        ], 
+        "GDP": [
+            "GDP:nsdqe", 
+            "Goodrich Petroleum Corporation"
+        ], 
+        "XEC": [
+            "XEC:nsdqe", 
+            "Cimarex Energy Co"
+        ], 
+        "LEI": [
+            "LEI:nsdqe", 
+            "Lucas Energy, Inc."
+        ], 
+        "BRN": [
+            "BRN:nsdqe", 
+            "Barnwell Industries, Inc."
+        ], 
+        "MCF": [
+            "MCF:nsdqe", 
+            "Contango Oil & Gas Company"
+        ], 
+        "RIGP": [
+            "RIGP:nsdqe", 
+            "Transocean Partners LLC"
+        ], 
+        "CIE": [
+            "CIE:nsdqe", 
+            "Cobalt International Energy, Inc."
+        ], 
+        "PDCE": [
+            "PDCE:nsdqe", 
+            "PDC Energy, Inc."
+        ], 
+        "SGY": [
+            "SGY:nsdqe", 
+            "Stone Energy Corporation"
+        ], 
+        "PSXP": [
+            "PSXP:nsdqe", 
+            "Phillips 66 Partners LP"
+        ], 
+        "MCEP": [
+            "MCEP:nsdqe", 
+            "Mid-Con Energy Partners, LP"
+        ], 
+        "JONE": [
+            "JONE:nsdqe", 
+            "Jones Energy, Inc."
+        ], 
+        "PXD": [
+            "PXD:nsdqe", 
+            "Pioneer Natural Resources Company"
+        ], 
+        "ESV": [
+            "ESV:nsdqe", 
+            "ENSCO plc"
+        ], 
+        "E": [
+            "E:nsdqe", 
+            "ENI S.p.A."
+        ], 
+        "CNQ": [
+            "CNQ:nsdqe", 
+            "Canadian Natural Resources Limited"
+        ], 
+        "CNX": [
+            "CNX:nsdqe", 
+            "CONSOL Energy Inc."
+        ], 
+        "ICD": [
+            "ICD:nsdqe", 
+            "Independence Contract Drilling, Inc."
+        ], 
+        "AR": [
+            "AR:nsdqe", 
+            "Antero Resources Corporation"
+        ], 
+        "FPP": [
+            "FPP:nsdqe", 
+            "FieldPoint Petroleum Corporation"
+        ], 
+        "ISRL": [
+            "ISRL:nsdqe", 
+            "Isramco, Inc."
+        ], 
+        "ARLP": [
+            "ARLP:nsdqe", 
+            "Alliance Resource Partners, L.P."
+        ], 
+        "RRMS": [
+            "RRMS:nsdqe", 
+            "Rose Rock Midstream, L.P."
+        ], 
+        "PNRG": [
+            "PNRG:nsdqe", 
+            "PrimeEnergy Corporation"
+        ]
+    }, 
+    "nsdqct": {
+        "TSL": [
+            "TSL:nsdqct", 
+            "Trina Solar "
+        ], 
+        "GPRE": [
+            "GPRE:nsdqct", 
+            "Green Plains, Inc"
+        ], 
+        "TSLA": [
+            "TSLA:nsdqct", 
+            "Tesla Motors, Inc"
+        ], 
+        "RBCN": [
+            "RBCN:nsdqct", 
+            "Rubicon Technology"
+        ], 
+        "SSNI": [
+            "SSNI:nsdqct", 
+            "Silver Spring Networks"
+        ], 
+        "GTAT": [
+            "GTAT:nsdqct", 
+            "GT Advanced Technologies"
+        ], 
+        "REGI": [
+            "REGI:nsdqct", 
+            "Renewable Energy"
+        ], 
+        "CPST": [
+            "CPST:nsdqct", 
+            "Capstone Turbine"
+        ], 
+        "MSCC": [
+            "MSCC:nsdqct", 
+            "Microsemi Corp"
+        ], 
+        "PEIX": [
+            "PEIX:nsdqct", 
+            "Pacific Ethanol"
+        ], 
+        "PEGI": [
+            "PEGI:nsdqct", 
+            "Pattern Energy "
+        ], 
+        "PLUG": [
+            "PLUG:nsdqct", 
+            "Plug Power, Inc."
+        ], 
+        "JASO": [
+            "JASO:nsdqct", 
+            "JA Solar Holdings"
+        ], 
+        "ENOC": [
+            "ENOC:nsdqct", 
+            "EnerNOC, Inc."
+        ], 
+        "IXYS": [
+            "IXYS:nsdqct", 
+            "IXYS Corporation"
+        ], 
+        "POWR": [
+            "POWR:nsdqct", 
+            "PowerSecure "
+        ], 
+        "SOL": [
+            "SOL:nsdqct", 
+            "Renesola Ltd."
+        ], 
+        "JKS": [
+            "JKS:nsdqct", 
+            "JinkoSolar "
+        ], 
+        "OLED": [
+            "OLED:nsdqct", 
+            "Universal Display"
+        ], 
+        "POWI": [
+            "POWI:nsdqct", 
+            "Power Integrations"
+        ], 
+        "FSLR": [
+            "FSLR:nsdqct", 
+            "First Solar, Inc."
+        ], 
+        "CSIQ": [
+            "CSIQ:nsdqct", 
+            "Canadian Solar "
+        ], 
+        "LLTC": [
+            "LLTC:nsdqct", 
+            "Linear Technology"
+        ], 
+        "HASI": [
+            "HASI:nsdqct", 
+            "Hannon Armstrong"
+        ], 
+        "AEIS": [
+            "AEIS:nsdqct", 
+            "Advanced Energy "
+        ], 
+        "VECO": [
+            "VECO:nsdqct", 
+            "Veeco Instruments"
+        ], 
+        "HXL": [
+            "HXL:nsdqct", 
+            "Hexcel Corporation"
+        ], 
+        "OPWR": [
+            "OPWR:nsdqct", 
+            "Opower, Inc."
+        ], 
+        "ESE": [
+            "ESE:nsdqct", 
+            "Esco Technologies"
+        ], 
+        "FCS": [
+            "FCS:nsdqct", 
+            "Fairchild Semiconductor"
+        ], 
+        "RVLT": [
+            "RVLT:nsdqct", 
+            "Revolution Lighting"
+        ], 
+        "SZYM": [
+            "SZYM:nsdqct", 
+            "Solazyme, Inc."
+        ], 
+        "BLDP": [
+            "BLDP:nsdqct", 
+            "Ballard Power Systems"
+        ], 
+        "HYGS": [
+            "HYGS:nsdqct", 
+            "Hydrogenics Corporation"
+        ], 
+        "IRF": [
+            "IRF:nsdqct", 
+            "International Rectifier"
+        ], 
+        "SUNE": [
+            "SUNE:nsdqct", 
+            "SunEdison, Inc."
+        ], 
+        "YGE": [
+            "YGE:nsdqct", 
+            "Yingli Green Energy"
+        ], 
+        "AVX": [
+            "AVX:nsdqct", 
+            "AVX Corporation"
+        ], 
+        "SPWR": [
+            "SPWR:nsdqct", 
+            "SunPower Corporation"
+        ], 
+        "FCEL": [
+            "FCEL:nsdqct", 
+            "FuelCell Energy"
+        ], 
+        "ITC": [
+            "ITC:nsdqct", 
+            "ITC Holdings Corp"
+        ], 
+        "AMRC": [
+            "AMRC:nsdqct", 
+            "Ameresco, Inc. "
+        ], 
+        "ITRI": [
+            "ITRI:nsdqct", 
+            "Itron, Inc."
+        ], 
+        "SCTY": [
+            "SCTY:nsdqct", 
+            "SolarCity Corporation"
+        ], 
+        "ENPH": [
+            "ENPH:nsdqct", 
+            "Enphase Energy, Inc."
+        ], 
+        "MXWL": [
+            "MXWL:nsdqct", 
+            "Maxwell Technologies"
+        ], 
+        "ONNN": [
+            "ONNN:nsdqct", 
+            "ON Semiconductor"
+        ], 
+        "MY": [
+            "MY:nsdqct", 
+            "China Ming Yang Wind"
+        ], 
+        "CREE": [
+            "CREE:nsdqct", 
+            "Cree, Inc."
+        ], 
+        "AMRS": [
+            "AMRS:nsdqct", 
+            "Amyris, Inc."
+        ]
+    }, 
+    "tsxvct": {
+        "AER": [
+            "AER:tsxvct", 
+            "Alternative Earth Resources Inc."
+        ], 
+        "CRD": [
+            "CRD:tsxvct", 
+            "Coronado Resources Ltd."
+        ], 
+        "ESV": [
+            "ESV:tsxvct", 
+            "E.S.I. Environmental Sensors Inc."
+        ], 
+        "PET": [
+            "PET:tsxvct", 
+            "Peat Resources Limited"
+        ], 
+        "FSI": [
+            "FSI:tsxvct", 
+            "FSI Energy Group Inc"
+        ], 
+        "SMS": [
+            "SMS:tsxvct", 
+            "SustainCo Inc."
+        ], 
+        "ZNN": [
+            "ZNN:tsxvct", 
+            "ZENN Motor Company Inc."
+        ], 
+        "EGT": [
+            "EGT:tsxvct", 
+            "Eguana Technologies Inc."
+        ], 
+        "AAT": [
+            "AAT:tsxvct", 
+            "ATI Airtest Technologies Inc."
+        ], 
+        "CSN": [
+            "CSN:tsxvct", 
+            "Crimson Bioenergy Ltd"
+        ], 
+        "REO": [
+            "REO:tsxvct", 
+            "Reservoir Capital Corp"
+        ], 
+        "ACU": [
+            "ACU:tsxvct", 
+            "ACT Aurora Control Technologies Corp"
+        ], 
+        "TMG": [
+            "TMG:tsxvct", 
+            "Thermal Energy International Inc."
+        ], 
+        "CVR": [
+            "CVR:tsxvct", 
+            "Canadian Oil Recovery & Remediation Enterprises Ltd."
+        ], 
+        "SBX": [
+            "SBX:tsxvct", 
+            "Sea Breeze Power Corp."
+        ], 
+        "XBC": [
+            "XBC:tsxvct", 
+            "Xebec Adsorption Inc."
+        ], 
+        "TIC": [
+            "TIC:tsxvct", 
+            "Titanium Corporation Inc."
+        ], 
+        "PYR": [
+            "PYR:tsxvct", 
+            "PyroGenesis Canada Inc."
+        ], 
+        "CEB": [
+            "CEB:tsxvct", 
+            "Ceiba Energy Services Inc."
+        ], 
+        "TCX": [
+            "TCX:tsxvct", 
+            "ThermoCeramix Corporation"
+        ], 
+        "PTE": [
+            "PTE:tsxvct", 
+            "Pioneering Technology Corp"
+        ], 
+        "ABG": [
+            "ABG:tsxvct", 
+            "AMG Bioenergy Resources Holdings Ltd"
+        ], 
+        "BRM": [
+            "BRM:tsxvct", 
+            "Biorem Inc."
+        ], 
+        "FVR": [
+            "FVR:tsxvct", 
+            "Finavera Wind Energy Inc"
+        ], 
+        "AQE": [
+            "AQE:tsxvct", 
+            "Aqua-Pure Ventures Inc."
+        ], 
+        "NWE": [
+            "NWE:tsxvct", 
+            "New West Energy Services Inc"
+        ], 
+        "STT": [
+            "STT:tsxvct", 
+            "STT Enviro Corp."
+        ], 
+        "HTC": [
+            "HTC:tsxvct", 
+            "HTC Purenergy Inc."
+        ], 
+        "VRD": [
+            "VRD:tsxvct", 
+            "Viridis Energy Inc"
+        ], 
+        "TEP": [
+            "TEP:tsxvct", 
+            "Transeastern Power Trust"
+        ], 
+        "GAE": [
+            "GAE:tsxvct", 
+            "Greenangel Energy Corp"
+        ], 
+        "SEL": [
+            "SEL:tsxvct", 
+            "SEL Exchange Inc."
+        ], 
+        "DYA": [
+            "DYA:tsxvct", 
+            "DynaCERT Inc."
+        ], 
+        "EWK": [
+            "EWK:tsxvct", 
+            "Earthworks Industries Inc."
+        ], 
+        "NXT": [
+            "NXT:tsxvct", 
+            "Natcore Technology Inc"
+        ], 
+        "EHT": [
+            "EHT:tsxvct", 
+            "Enerdynamic Hybrid Technologies Corp."
+        ], 
+        "FEE": [
+            "FEE:tsxvct", 
+            "Free Energy International Inc"
+        ], 
+        "CLI": [
+            "CLI:tsxvct", 
+            "Clearford Water Systems Inc."
+        ], 
+        "WEE": [
+            "WEE:tsxvct", 
+            "Wavefront Technology Solutions Inc"
+        ], 
+        "CL": [
+            "CL:tsxvct", 
+            "Crailar Technologies Inc."
+        ], 
+        "VCI": [
+            "VCI:tsxvct", 
+            "Vitreous Glass Inc."
+        ], 
+        "NKW": [
+            "NKW:tsxvct", 
+            "Naikun Wind Energy Group Inc."
+        ], 
+        "LPS": [
+            "LPS:tsxvct", 
+            "Legend Power Systems Inc"
+        ], 
+        "RDX": [
+            "RDX:tsxvct", 
+            "RDX Technologies Corporation"
+        ], 
+        "FFM": [
+            "FFM:tsxvct", 
+            "Formation Fluid Management Inc."
+        ], 
+        "WMT": [
+            "WMT:tsxvct", 
+            "West Mountain Environmental Corp."
+        ], 
+        "BLM": [
+            "BLM:tsxvct", 
+            "BluMetric Environmental Inc."
+        ], 
+        "IGE": [
+            "IGE:tsxvct", 
+            "Innovente Inc"
+        ], 
+        "LEC": [
+            "LEC:tsxvct", 
+            "Lignol Energy Corporation"
+        ], 
+        "GRB": [
+            "GRB:tsxvct", 
+            "Greenbriar Capital Corp"
+        ], 
+        "CSX": [
+            "CSX:tsxvct", 
+            "Clean Seed Capital Group Ltd"
+        ], 
+        "ENV": [
+            "ENV:tsxvct", 
+            "Enssolutions Group Inc"
+        ], 
+        "ENW": [
+            "ENW:tsxvct", 
+            "EnWave Corporation"
+        ], 
+        "EWS": [
+            "EWS:tsxvct", 
+            "Environmental Waste International Inc."
+        ], 
+        "CST": [
+            "CST:tsxvct", 
+            "CO2 Solutions Inc."
+        ], 
+        "HEO": [
+            "HEO:tsxvct", 
+            "H2O Innovation Inc"
+        ], 
+        "TRU": [
+            "TRU:tsxvct", 
+            "Trius Investments Inc"
+        ], 
+        "SVS": [
+            "SVS:tsxvct", 
+            "Solarvest BioEnergy Inc"
+        ], 
+        "ENP": [
+            "ENP:tsxvct", 
+            "Enpar Technologies Inc."
+        ], 
+        "UG": [
+            "UG:tsxvct", 
+            "UGE International Ltd."
+        ], 
+        "SDW": [
+            "SDW:tsxvct", 
+            "Sofame Technologies Inc."
+        ], 
+        "LED": [
+            "LED:tsxvct", 
+            "CRS Electronics Inc"
+        ], 
+        "COO": [
+            "COO:tsxvct", 
+            "Offsetters Climate Solutions Inc."
+        ], 
+        "SYD": [
+            "SYD:tsxvct", 
+            "Synodon Inc."
+        ], 
+        "EBN": [
+            "EBN:tsxvct", 
+            "Epicore BioNetworks Inc."
+        ], 
+        "SDS": [
+            "SDS:tsxvct", 
+            "Seair Inc."
+        ], 
+        "NCE": [
+            "NCE:tsxvct", 
+            "Nesscap Energy Inc"
+        ], 
+        "CNO": [
+            "CNO:tsxvct", 
+            "California Nanotechnologies Corp"
+        ], 
+        "AKH": [
+            "AKH:tsxvct", 
+            "Alaska Hydro Corporation"
+        ], 
+        "MP": [
+            "MP:tsxvct", 
+            "MicroPlanet Technology Corp."
+        ], 
+        "QST": [
+            "QST:tsxvct", 
+            "Questor Technology Inc."
+        ], 
+        "MCW": [
+            "MCW:tsxvct", 
+            "MCW Energy Group Limited"
+        ], 
+        "NOV": [
+            "NOV:tsxvct", 
+            "NOVX21 Inc."
+        ], 
+        "BVO": [
+            "BVO:tsxvct", 
+            "Bevo Agro Inc."
+        ], 
+        "RRE": [
+            "RRE:tsxvct", 
+            "Reg Technologies Inc."
+        ], 
+        "SSC": [
+            "SSC:tsxvct", 
+            "SmartCool Systems Inc."
+        ]
+    }, 
+    "tsxvog": {
+        "FSI": [
+            "FSI:tsxvog", 
+            "FSI Energy Group Inc"
+        ], 
+        "AAO": [
+            "AAO:tsxvog", 
+            "Augusta Industries Inc"
+        ], 
+        "CVR": [
+            "CVR:tsxvog", 
+            "Canadian Oil Recovery & Remediation Enterprises Ltd."
+        ], 
+        "CKK": [
+            "CKK:tsxvog", 
+            "Cordy Oilfield Services Inc."
+        ], 
+        "EEN": [
+            "EEN:tsxvog", 
+            "Estrella International Energy Services Ltd"
+        ], 
+        "DVT": [
+            "DVT:tsxvog", 
+            "Divestco Inc."
+        ], 
+        "EGD": [
+            "EGD:tsxvog", 
+            "Energold Drilling Corp."
+        ], 
+        "SEW": [
+            "SEW:tsxvog", 
+            "Seaway Energy Services Inc"
+        ], 
+        "CEB": [
+            "CEB:tsxvog", 
+            "Ceiba Energy Services Inc."
+        ], 
+        "DAL": [
+            "DAL:tsxvog", 
+            "Dalmac Energy Inc."
+        ], 
+        "LSI": [
+            "LSI:tsxvog", 
+            "Lonestar West Inc"
+        ], 
+        "NWE": [
+            "NWE:tsxvog", 
+            "New West Energy Services Inc"
+        ], 
+        "RPC": [
+            "RPC:tsxvog", 
+            "Raise Production Inc"
+        ], 
+        "DVG": [
+            "DVG:tsxvog", 
+            "Divergent Energy Services Corp."
+        ], 
+        "GKX": [
+            "GKX:tsxvog", 
+            "Gemini Corporation"
+        ], 
+        "EUO": [
+            "EUO:tsxvog", 
+            "Eurocontrol Technics Group Inc"
+        ], 
+        "GPE": [
+            "GPE:tsxvog", 
+            "Great Prairie Energy Services Inc."
+        ], 
+        "IES": [
+            "IES:tsxvog", 
+            "Intercept Energy Services Inc."
+        ], 
+        "RDX": [
+            "RDX:tsxvog", 
+            "RDX Technologies Corporation"
+        ], 
+        "TLA": [
+            "TLA:tsxvog", 
+            "Titan Logix Corp."
+        ], 
+        "ENS": [
+            "ENS:tsxvog", 
+            "Enseco Energy Services Corp"
+        ], 
+        "FFF": [
+            "FFF:tsxvog", 
+            "Northern Frontier Corp."
+        ], 
+        "CWC": [
+            "CWC:tsxvog", 
+            "CWC Energy Services Corp."
+        ], 
+        "LEA": [
+            "LEA:tsxvog", 
+            "Leader Energy Services Ltd."
+        ], 
+        "MXX": [
+            "MXX:tsxvog", 
+            "MATRRIX Energy Technologies Inc"
+        ], 
+        "CBE": [
+            "CBE:tsxvog", 
+            "Cabo Drilling Corp."
+        ], 
+        "FFM": [
+            "FFM:tsxvog", 
+            "Formation Fluid Management Inc."
+        ], 
+        "QST": [
+            "QST:tsxvog", 
+            "Questor Technology Inc."
+        ], 
+        "MCW": [
+            "MCW:tsxvog", 
+            "MCW Energy Group Limited"
+        ], 
+        "AVE": [
+            "AVE:tsxvog", 
+            "Aveda Transportation and Energy Services Inc"
+        ], 
+        "SFD": [
+            "SFD:tsxvog", 
+            "NXT Energy Solutions Inc"
+        ], 
+        "OEG": [
+            "OEG:tsxvog", 
+            "ONEnergy Inc."
+        ], 
+        "MCR": [
+            "MCR:tsxvog", 
+            "Macro Enterprises Inc."
+        ]
+    }, 
+    "nye": {
+        "WG": [
+            "WG:nye", 
+            "Willbros Group Inc."
+        ], 
+        "EGY": [
+            "EGY:nye", 
+            "Vaalco Energy Inc."
+        ], 
+        "EOG": [
+            "EOG:nye", 
+            "EOG Resources Inc."
+        ], 
+        "DRQ": [
+            "DRQ:nye", 
+            "Dril-Quip Inc."
+        ], 
+        "CKH": [
+            "CKH:nye", 
+            "SEACOR Holding Inc."
+        ], 
+        "OAS": [
+            "OAS:nye", 
+            "Oasis Petroleum Inc."
+        ], 
+        "WH": [
+            "WH:nye", 
+            "WSP Holdings Ltd."
+        ], 
+        "EPL": [
+            "EPL:nye", 
+            "Energy Partners Ltd."
+        ], 
+        "BP": [
+            "BP:nye", 
+            "BP PLC"
+        ], 
+        "EGN": [
+            "EGN:nye", 
+            "Energen Corp."
+        ], 
+        "DRC": [
+            "DRC:nye", 
+            "Dresser-Rand Group Inc."
+        ], 
+        "CLR": [
+            "CLR:nye", 
+            "Continental Resources Inc."
+        ], 
+        "SPN": [
+            "SPN:nye", 
+            "Superior Energy Services Inc."
+        ], 
+        "RES": [
+            "RES:nye", 
+            "RPC Inc."
+        ], 
+        "PZE": [
+            "PZE:nye", 
+            "Petrobras Argentina S.A."
+        ], 
+        "RIG": [
+            "RIG:nye", 
+            "Transocean Ltd."
+        ], 
+        "GU": [
+            "GU:nye", 
+            "Gushan Environmental Energy Ltd."
+        ], 
+        "HAL": [
+            "HAL:nye", 
+            "Halliburton Co."
+        ], 
+        "CHK": [
+            "CHK:nye", 
+            "Chesapeake Energy Corp."
+        ], 
+        "NXY": [
+            "NXY:nye", 
+            "Nexen Inc."
+        ], 
+        "EQT": [
+            "EQT:nye", 
+            "EQT Corp."
+        ], 
+        "CPE": [
+            "CPE:nye", 
+            "Callon Petroleum Co."
+        ], 
+        "MRO": [
+            "MRO:nye", 
+            "Marathon Oil Corp."
+        ], 
+        "GLF": [
+            "GLF:nye", 
+            "Gulfmark Offshore Inc. (Cl A)"
+        ], 
+        "LPI": [
+            "LPI:nye", 
+            "Laredo Petroleum Holdings Inc."
+        ], 
+        "WMB": [
+            "WMB:nye", 
+            "Williams Cos."
+        ], 
+        "OII": [
+            "OII:nye", 
+            "Oceaneering International Inc."
+        ], 
+        "SFY": [
+            "SFY:nye", 
+            "Swift Energy Co."
+        ], 
+        "LDKSY": [
+            "LDKSY:nye", 
+            "LDK Solar Co. Ltd."
+        ], 
+        "PACD": [
+            "PACD:nye", 
+            "Pacific Drilling S.A."
+        ], 
+        "PHX": [
+            "PHX:nye", 
+            "Panhandle Oil & Gas Inc."
+        ], 
+        "SNP": [
+            "SNP:nye", 
+            "China Petroleum & Chemical Corp."
+        ], 
+        "MTDR": [
+            "MTDR:nye", 
+            "Matador Resources Co."
+        ], 
+        "WLL": [
+            "WLL:nye", 
+            "Whiting Petroleum Corp."
+        ], 
+        "APA": [
+            "APA:nye", 
+            "Apache Corp."
+        ], 
+        "OIS": [
+            "OIS:nye", 
+            "Oil States International Inc."
+        ], 
+        "CXO": [
+            "CXO:nye", 
+            "Concho Resources Inc."
+        ], 
+        "CRR": [
+            "CRR:nye", 
+            "CARBO Ceramics Inc."
+        ], 
+        "TSO": [
+            "TSO:nye", 
+            "Tesoro Corp."
+        ], 
+        "TSL": [
+            "TSL:nye", 
+            "Trina Solar Ltd."
+        ], 
+        "HP": [
+            "HP:nye", 
+            "Helmerich & Payne Inc."
+        ], 
+        "UPL": [
+            "UPL:nye", 
+            "Ultra Petroleum Corp."
+        ], 
+        "HDY": [
+            "HDY:nye", 
+            "Hyperdynamics Corp."
+        ], 
+        "NGS": [
+            "NGS:nye", 
+            "Natural Gas Services Group Inc."
+        ], 
+        "CRK": [
+            "CRK:nye", 
+            "Comstock Resources Inc."
+        ], 
+        "WFT": [
+            "WFT:nye", 
+            "Weatherford International Ltd."
+        ], 
+        "PQ": [
+            "PQ:nye", 
+            "PetroQuest Energy Inc."
+        ], 
+        "VLO": [
+            "VLO:nye", 
+            "Valero Energy Corp."
+        ], 
+        "SDRL": [
+            "SDRL:nye", 
+            "SeaDrill Ltd."
+        ], 
+        "CEO": [
+            "CEO:nye", 
+            "CNOOC Ltd."
+        ], 
+        "WNR": [
+            "WNR:nye", 
+            "Western Refining Inc."
+        ], 
+        "TTI": [
+            "TTI:nye", 
+            "Tetra Technologies Inc."
+        ], 
+        "PKD": [
+            "PKD:nye", 
+            "Parker Drilling Co."
+        ], 
+        "PTR": [
+            "PTR:nye", 
+            "PetroChina Co. Ltd."
+        ], 
+        "ENDRQ": [
+            "ENDRQ:nye", 
+            "Endeavour International Corp."
+        ], 
+        "ENB": [
+            "ENB:nye", 
+            "Enbridge Inc."
+        ], 
+        "OXY": [
+            "OXY:nye", 
+            "Occidental Petroleum Corp."
+        ], 
+        "PBR": [
+            "PBR:nye", 
+            "Petroleo Brasileiro S/A"
+        ], 
+        "EC": [
+            "EC:nye", 
+            "Ecopetrol S.A."
+        ], 
+        "APC": [
+            "APC:nye", 
+            "Anadarko Petroleum Corp."
+        ], 
+        "FTI": [
+            "FTI:nye", 
+            "FMC Technologies Inc."
+        ], 
+        "WPX": [
+            "WPX:nye", 
+            "WPX Energy"
+        ], 
+        "EXH": [
+            "EXH:nye", 
+            "Exterran Holdings Inc."
+        ], 
+        "MHR": [
+            "MHR:nye", 
+            "Magnum Hunter Resources Corp."
+        ], 
+        "EP": [
+            "EP:nye", 
+            "El Paso Corp."
+        ], 
+        "NFX": [
+            "NFX:nye", 
+            "Newfield Exploration Co."
+        ], 
+        "MPC": [
+            "MPC:nye", 
+            "Marathon Petroleum Corp."
+        ], 
+        "HLX": [
+            "HLX:nye", 
+            "Helix Energy Solutions Group Inc."
+        ], 
+        "XCO": [
+            "XCO:nye", 
+            "EXCO Resources Inc."
+        ], 
+        "BTE": [
+            "BTE:nye", 
+            "Baytex Energy Corp."
+        ], 
+        "SSL": [
+            "SSL:nye", 
+            "Sasol Ltd."
+        ], 
+        "STRI": [
+            "STRI:nye", 
+            "STR Holdings Inc."
+        ], 
+        "PVX": [
+            "PVX:nye", 
+            "Provident Energy Ltd."
+        ], 
+        "STP": [
+            "STP:nye", 
+            "Suntech Power Holdings Co. Ltd."
+        ], 
+        "NOV": [
+            "NOV:nye", 
+            "National Oilwell Varco Inc."
+        ], 
+        "MY": [
+            "MY:nye", 
+            "China Ming Yang Wind Power Group Ltd."
+        ], 
+        "SUG": [
+            "SUG:nye", 
+            "Southern Union Co."
+        ], 
+        "COP": [
+            "COP:nye", 
+            "ConocoPhillips"
+        ], 
+        "REX": [
+            "REX:nye", 
+            "Rex American Resources Corp."
+        ], 
+        "DVN": [
+            "DVN:nye", 
+            "Devon Energy Corp."
+        ], 
+        "WTI": [
+            "WTI:nye", 
+            "W&T Offshore Inc."
+        ], 
+        "MUR": [
+            "MUR:nye", 
+            "Murphy Oil Corp."
+        ], 
+        "SUN": [
+            "SUN:nye", 
+            "Sunoco Inc."
+        ], 
+        "KMI": [
+            "KMI:nye", 
+            "Kinder Morgan Inc."
+        ], 
+        "ATW": [
+            "ATW:nye", 
+            "Atwood Oceanics Inc."
+        ], 
+        "HNR": [
+            "HNR:nye", 
+            "Harvest Natural Resources Inc."
+        ], 
+        "FST": [
+            "FST:nye", 
+            "Forest Oil Corp."
+        ], 
+        "COG": [
+            "COG:nye", 
+            "Cabot Oil & Gas Corp."
+        ], 
+        "TRP": [
+            "TRP:nye", 
+            "TransCanada Corp."
+        ], 
+        "HFC": [
+            "HFC:nye", 
+            "HollyFrontier Corp."
+        ], 
+        "FTK": [
+            "FTK:nye", 
+            "Flotek Industries Inc."
+        ], 
+        "DVR": [
+            "DVR:nye", 
+            "Cal Dive International Inc."
+        ], 
+        "RDS/A": [
+            "RDS/A:nye", 
+            "Royal Dutch Shell PLC Cl A"
+        ], 
+        "CIE": [
+            "CIE:nye", 
+            "Cobalt International Energy Inc."
+        ], 
+        "ECA": [
+            "ECA:nye", 
+            "EnCana Corp."
+        ], 
+        "RDS/B": [
+            "RDS/B:nye", 
+            "Royal Dutch Shell PLC B"
+        ], 
+        "NBR": [
+            "NBR:nye", 
+            "Nabors Industries Ltd."
+        ], 
+        "RRC": [
+            "RRC:nye", 
+            "Range Resources Corp."
+        ], 
+        "NE": [
+            "NE:nye", 
+            "Noble Corp."
+        ], 
+        "JKS": [
+            "JKS:nye", 
+            "JinkoSolar Holding Co. Ltd."
+        ], 
+        "PVA": [
+            "PVA:nye", 
+            "Penn Virginia Corp."
+        ], 
+        "QEP": [
+            "QEP:nye", 
+            "QEP Resources Inc."
+        ], 
+        "CJES": [
+            "CJES:nye", 
+            "C&J Energy Services Inc."
+        ], 
+        "TNK": [
+            "TNK:nye", 
+            "Teekay Tankers Ltd."
+        ], 
+        "NBL": [
+            "NBL:nye", 
+            "Noble Energy Inc."
+        ], 
+        "MDR": [
+            "MDR:nye", 
+            "McDermott International Inc."
+        ], 
+        "NR": [
+            "NR:nye", 
+            "Newpark Resources Inc."
+        ], 
+        "CGV": [
+            "CGV:nye", 
+            "CGG Veritas"
+        ], 
+        "GGS": [
+            "GGS:nye", 
+            "Global Geophysical Services Inc."
+        ], 
+        "UNT": [
+            "UNT:nye", 
+            "Unit Corp."
+        ], 
+        "HES": [
+            "HES:nye", 
+            "Hess Corp."
+        ], 
+        "BBG": [
+            "BBG:nye", 
+            "Bill Barrett Corp."
+        ], 
+        "PDS": [
+            "PDS:nye", 
+            "Precision Drilling Corp."
+        ], 
+        "CLB": [
+            "CLB:nye", 
+            "Core Laboratories N.V."
+        ], 
+        "KOG": [
+            "KOG:nye", 
+            "Kodiak Oil & Gas Corp."
+        ], 
+        "RDC": [
+            "RDC:nye", 
+            "Rowan Cos. Inc."
+        ], 
+        "DNR": [
+            "DNR:nye", 
+            "Denbury Resources Inc."
+        ], 
+        "TLM": [
+            "TLM:nye", 
+            "Talisman Energy Inc."
+        ], 
+        "GDP": [
+            "GDP:nye", 
+            "Goodrich Petroleum Corp."
+        ], 
+        "ALJ": [
+            "ALJ:nye", 
+            "Alon USA Energy Inc."
+        ], 
+        "BRY": [
+            "BRY:nye", 
+            "Berry Petroleum Co. Cl A"
+        ], 
+        "XEC": [
+            "XEC:nye", 
+            "Cimarex Energy Co."
+        ], 
+        "KEG": [
+            "KEG:nye", 
+            "Key Energy Services Inc."
+        ], 
+        "DK": [
+            "DK:nye", 
+            "Delek US Holdings Inc."
+        ], 
+        "BRS": [
+            "BRS:nye", 
+            "Bristow Group Inc."
+        ], 
+        "SU": [
+            "SU:nye", 
+            "Suncor Energy Inc."
+        ], 
+        "MMR": [
+            "MMR:nye", 
+            "McMoRan Exploration Co."
+        ], 
+        "SN": [
+            "SN:nye", 
+            "Sanchez Energy Corp."
+        ], 
+        "SM": [
+            "SM:nye", 
+            "SM Energy Co."
+        ], 
+        "TDW": [
+            "TDW:nye", 
+            "Tidewater Inc."
+        ], 
+        "SD": [
+            "SD:nye", 
+            "SandRidge Energy Inc."
+        ], 
+        "DO": [
+            "DO:nye", 
+            "Diamond Offshore Drilling Inc."
+        ], 
+        "BAS": [
+            "BAS:nye", 
+            "Basic Energy Services Inc."
+        ], 
+        "CVX": [
+            "CVX:nye", 
+            "Chevron Corp."
+        ], 
+        "SWN": [
+            "SWN:nye", 
+            "Southwestern Energy Co."
+        ], 
+        "TOT": [
+            "TOT:nye", 
+            "Total S.A."
+        ], 
+        "AAV": [
+            "AAV:nye", 
+            "Advantage Oil & Gas Ltd."
+        ], 
+        "CAM": [
+            "CAM:nye", 
+            "Cameron International Corp."
+        ], 
+        "CVI": [
+            "CVI:nye", 
+            "CVR Energy Inc."
+        ], 
+        "KOS": [
+            "KOS:nye", 
+            "Kosmos Energy Ltd."
+        ], 
+        "CVE": [
+            "CVE:nye", 
+            "Cenovus Energy Inc."
+        ], 
+        "SGY": [
+            "SGY:nye", 
+            "Stone Energy Corp."
+        ], 
+        "TGS": [
+            "TGS:nye", 
+            "Transportadora de Gas del Sur S.A."
+        ], 
+        "BPZ": [
+            "BPZ:nye", 
+            "BPZ Resources Inc."
+        ], 
+        "GMXR": [
+            "GMXR:nye", 
+            "GMX Resources Inc."
+        ], 
+        "SEMG": [
+            "SEMG:nye", 
+            "Semgroup Corp. Cl A"
+        ], 
+        "KWK": [
+            "KWK:nye", 
+            "Quicksilver Resources Inc."
+        ], 
+        "PXP": [
+            "PXP:nye", 
+            "Plains Exploration & Production Co."
+        ], 
+        "SOL": [
+            "SOL:nye", 
+            "ReneSola Ltd."
+        ], 
+        "TRGP": [
+            "TRGP:nye", 
+            "Targa Resources Corp."
+        ], 
+        "PXD": [
+            "PXD:nye", 
+            "Pioneer Natural Resources Co."
+        ], 
+        "ESV": [
+            "ESV:nye", 
+            "ENSCO PLC"
+        ], 
+        "TPL": [
+            "TPL:nye", 
+            "Texas Pacific Land Trust Sub Share Ctf"
+        ], 
+        "E": [
+            "E:nye", 
+            "ENI S.p.A."
+        ], 
+        "CNQ": [
+            "CNQ:nye", 
+            "Canadian Natural Resources Ltd."
+        ], 
+        "EQU": [
+            "EQU:nye", 
+            "Equal Energy Ltd."
+        ], 
+        "STO": [
+            "STO:nye", 
+            "Statoil ASA"
+        ], 
+        "LPR": [
+            "LPR:nye", 
+            "Lone Pine Resources Inc."
+        ], 
+        "VQ": [
+            "VQ:nye", 
+            "Venoco Inc."
+        ], 
+        "BCEI": [
+            "BCEI:nye", 
+            "Bonanza Creek Energy Inc."
+        ], 
+        "YPF": [
+            "YPF:nye", 
+            "YPF S.A."
+        ], 
+        "HOS": [
+            "HOS:nye", 
+            "Hornbeck Offshore Services Inc."
+        ], 
+        "IO": [
+            "IO:nye", 
+            "ION Geophysical Corp."
+        ], 
+        "MILL": [
+            "MILL:nye", 
+            "Miller Energy Resources Inc."
+        ], 
+        "XOM": [
+            "XOM:nye", 
+            "Exxon Mobil Corp."
+        ], 
+        "SLB": [
+            "SLB:nye", 
+            "Schlumberger Ltd."
+        ], 
+        "BHI": [
+            "BHI:nye", 
+            "Baker Hughes Inc."
+        ], 
+        "YGE": [
+            "YGE:nye", 
+            "Yingli Green Energy Holding Co. Ltd."
+        ], 
+        "REN": [
+            "REN:nye", 
+            "Resolute Energy Corp."
+        ], 
+        "PWE": [
+            "PWE:nye", 
+            "Penn West Petroleum Ltd."
+        ], 
+        "OGE": [
+            "OGE:nye", 
+            "OGE Energy Corp."
+        ]
+    }
+}
