@@ -65,9 +65,13 @@ def teardown_request(exception):
 def get_company_entry(id):
     print "in get_company_entry with id=%s" % (id,)
     conn = get_database_connection()
+    print "affer connection"
     curs = conn.cursor()
-    curs.execute('SELECT * from companies where index = {}'.format(id))
+    print "have a cursor"
+    curs.execute('SELECT * from companies where index = "{}"'.format(id))
+    print "executed select"
     values = curs.fetchall()
+    print "after fetchall"
     return jsonify(dict(zip(table_labels, values)))
 
 @app.route('/')
