@@ -77,6 +77,12 @@ loadStocks();
     //  It is a URL that points to a Flask route which will return
     //  data about the code whose sym tag is on the slug
     var url_slug = this.href;
+
+    // Flask does not like ':' in its URL's
+    // The Flask route will look for underscore and convert to ':'
+    // and stock symbols with NEVER have underscores, right?
+    url_slug.replace(':','_');
+
     //var data = url_slug.split('/')
 
     // To load an HTML file off the disk, use the following 2 lines, assuming
