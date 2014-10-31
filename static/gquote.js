@@ -96,10 +96,10 @@ loadStocks();
       //complete: function() {
       //  $("#loading").remove();
       //},
+      //fail: function() {
+      //  $company.html('<div class="loading">Please try again soon.</div>')
+      //}
       success: success
-      fail: function() {
-        $company.html('<div class="loading">Please try again soon.</div>')
-      }
     })
 /*
     $.getJSON(url_slug)
