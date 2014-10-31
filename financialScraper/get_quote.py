@@ -8,6 +8,8 @@ def _request(param):
     """
     symbol = param[0]
     dictionary = param[1]
+    index = param[2]
+
     price, change = ('l1', 'c')
     url = 'http://finance.yahoo.com/d/quotes.csv?s=%s&f=%s' % (symbol, price)
     req = Request(url)
@@ -19,10 +21,11 @@ def _request(param):
     resp = urlopen(req, timeout = 5)
     currentchange = resp.read().decode().strip()
     numchange, perchange = currentchange.split(' - ')
-    dictionary[symbol] = (currentprice, numchange, perchange)
+    symbol = symbol + ':' + index
+    dictionary[symbol] = [currentprice, numchange, perchange]
     print dictionary[symbol]
 
-def get_quote(symbollist, ext = ''):
+def get_quote(index, symbollist, ext = ''):
     """
 Takes a list of symbols and uses ystockquote to request current stock information. \
 Returns a dictionary with the keys as symbols, and the values being a dictionary of current stock
@@ -30,11 +33,11 @@ information.
     """
     stock_dict = {}
     for index, symbol in enumerate(symbollist):
-        symbollist[index] = (symbol + ext, stock_dict)
+        symbollist[index] = (symbol + ext, stock_dict, index)
     pool = Pool(5)
         ##map symbol list to _get_data() fn. return tuple, with (symbol, statlist).
     pool.map(_request, symbollist)
-    return pd.DataFrame.from_dict(stock_dict, orient = 'index')
+    return stock_dict
 
 def current_quote():
     indexlist = []
@@ -46,18 +49,22 @@ def current_quote():
     indexlist.append('dataFiles/tsxvctsymbols.csv')
     indexlist.append('dataFiles/tsxvogsymbols.csv')
 
-
     indexlist = load_files(indexlist)
 
-    current_quotes = {}
+    current_quotes = []
     for index, symbollist in indexlist.iteritems():
         #print index
         if index == 'tsxvctsymbols.csv' or index == 'tsxvogsymbols.csv':
-            current_quotes[index] = get_quote(symbollist, '.V')
+            current_quotes.append(get_quote(index, symbollist, '.V'))
         elif index == 'tsxctsymbols.csv' or index == 'tsxogsymbols.csv':        
-            current_quotes[index] = get_quote(symbollist, '.TO')
+            current_quotes.append(get_quote(index, symbollist, '.TO'))
         else:
-            current_quotes[index] = get_quote(symbollist)
-    return current_quotes
+            current_quotes.append(get_quote(index, symbollist))
+    quotes = current_quotes[0]
+    for index in range(1, len(current_quotes)):
+        quotes.update(current_quotes[index])
+
+    return pd.DataFrame.from_dict(quotes, orient = 'index')
+
 if __name__ == '__main__':
     cq = current_quote()

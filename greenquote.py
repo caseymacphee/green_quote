@@ -68,13 +68,38 @@ def get_company_entry(id):
 	values = curs.fetchall()
 	return jsonify(dict(zip(table_labels, values)))
 
+def get_index_stats(id):
+	conn = get_database_connection()
+	curs = conn.cursor()
+	curs.execute('SELECT * FROM stats WHERE index = {}'.format(id))
+	values = curs.fetchall()
+	return jsonify(dict(zip(table_labels, values)))
+
+def get_current_quotes(id):
+	conn= get_database_connection()
+	curs = conn.cursor()
+	curs.execute('SELECT * FROM quotes WHERE index = {}'.format(id))
+	values = curs.fetchall()
+	current_price_change = {"price": values}
+	return jsonify(current_price_change)
+
 @app.route('/')
 def show_indexes():
     return render_template('base.html')
 
-@app.route('/<id>')
+@app.route('/lc/<id>')
 def show_company_profile():
 	query_result = get_company_entry(id)
+	return query_result
+
+@app.route('/index/<id>')
+def show_index_profile():
+	query_result = get_index_stats(id)
+	return query_result
+
+@app.route('/quote/<id>')
+def show_company_quote():
+	query_result = get_current_quotes(id)
 	return query_result
 
 if __name__ == '__main__':
