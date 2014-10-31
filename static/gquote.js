@@ -45,7 +45,7 @@ loadStocks();
         newContent += "</a></li>";
     }
 
-    $('#stocks').html('<ul>' + newContent + '</ul>');
+    $('#stocks').html('<h2>Index Companies</h2><ul>' + newContent + '</ul>');
 
     // swap visibility
     $('#indice a.current').removeClass('current');
@@ -64,7 +64,7 @@ loadStocks();
       newContent += "<li>"+metric+":"+companydata[metric]+"<li>";
       }
 
-    newContent = "<ul>" + newContent + "<ul>";
+    newContent = "<h2>Company Metrics</h2><ul>" + newContent + "<ul>";
 
     // if the data is html, it can just be written
     $company.html(newContent).find("li").hide().fadeIn(300);
