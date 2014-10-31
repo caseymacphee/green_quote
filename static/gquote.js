@@ -63,6 +63,7 @@ loadStocks();
     //  It is a URL that points to a Flask route which will return
     //  data about the code whose sym tag is on the slug
     var url_slug = this.href;
+    var data = url_slug.split('/')
 
     // To load an HTML file off the disk, use the following 2 lines, assuming
     //  the title to be loaded matches.
@@ -70,9 +71,12 @@ loadStocks();
     //$('company').load(load_title);
 
     $.ajax({
-      type: "GET",
-      url: url_slug,
-      timeout: 2000,
+      //type: "GET",
+      dataType: "json",
+      url: data[0] + '/',
+      data: data[1],
+      //timeout: 3000,
+      //success: success,
       beforeSend: function() {
         $company.append('<div id="load">Loading</div>');
       },

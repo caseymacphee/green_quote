@@ -61,21 +61,24 @@ def teardown_request(exception):
 			db.commit()
 		db.close()
 
+
 def get_company_entry(id):
-	conn = get_database_connection()
-	curs = conn.cursor()
-	curs.execute('SELECT * from companies where index = {}'.format(id))
-	values = curs.fetchall()
-	return jsonify(dict(zip(table_labels, values)))
+    print "in get_company_entry with id=%s" % (id,)
+    conn = get_database_connection()
+    curs = conn.cursor()
+    curs.execute('SELECT * from companies where index = {}'.format(id))
+    values = curs.fetchall()
+    return jsonify(dict(zip(table_labels, values)))
 
 @app.route('/')
 def show_indexes():
     return render_template('base.html')
 
-@app.route('/lc/<path:id>')
+@app.route('/lc/<id>')
 def show_company_profile():
-	query_result = get_company_entry(id)
-	return query_result
+    print "in_show_company_profile"
+    query_result = get_company_entry(id)
+    return query_result
 
 if __name__ == '__main__':
 	app.run(debug=True)
