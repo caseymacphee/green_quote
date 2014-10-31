@@ -36,10 +36,11 @@ loadStocks();
     stock_list = stocks[indice]
     for( var stock_entry in stock_list) {
         company_info = stock_list[stock_entry]
+        company_symbol = company_info[0].replace(":", "_");
 
         // build an 'li' for the company with a link
         newContent += "<li><a class='stocks' href='/lc/";
-        newContent += company_info[0] + "'>";
+        newContent += company_symbol + "'>";
         newContent += company_info[1];
         newContent += "</a></li>";
     }
@@ -81,7 +82,9 @@ loadStocks();
     // Flask does not like ':' in its URL's
     // The Flask route will look for underscore and convert to ':'
     // and stock symbols with NEVER have underscores, right?
-    url_slug = url_slug.replace(':','_');
+    // the URL is now written with the underscore when it's created in
+    // the onclick for the indice
+    //url_slug = url_slug.replace(':','_');
 
     //var data = url_slug.split('/')
 
