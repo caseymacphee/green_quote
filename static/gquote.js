@@ -38,7 +38,7 @@ loadStocks();
         company_info = stock_list[stock_entry]
 
         // build an 'li' for the company with a link
-        newContent += "<li><a class='stocks' href='/lc.html#sym=";
+        newContent += "<li><a class='stocks' href='/lc/";
         newContent += company_info[0] + "'>";
         newContent += company_info[1];
         newContent += "</a></li>";
@@ -53,7 +53,6 @@ loadStocks();
     $('#company').text('');
   });
 
-  var companydata;
 
   // Click on one of the stocks to load a company
   $('#content').on('click', '#stocks li a', function (e) {
@@ -65,28 +64,54 @@ loadStocks();
     //  data about the code whose sym tag is on the slug
     var url_slug = this.href;
 
-
     // To load an HTML file off the disk, use the following 2 lines, assuming
     //  the title to be loaded matches.
     //load_title = load_title.replace('#', " #");
     //$('company').load(load_title);
 
+    $.ajax({
+      type: "GET",
+      url: url_slug,
+      timeout: 2000,
+      beforeSend: function() {
+        $company.append('<div id="load">Loading</div>');
+      },
+      complete: function() {
+        $("#loading").remove();
+      },
+      success: function(companydata) {
+        // if the data is JSON, the HTML has to be built first to get back html
+        var newContent = '';
+
+        for (var metric in companydata) {
+          newContent = "<li>"+metric.key+":"+metric.value+"<li>";
+          }
+
+        newContent = "<ul>" + newContent + "<ul>";
+
+        // if the data is html, it can just be written
+        $company.html ($(companydata). find("li")).hide().fadeIn(300);
+      },
+      fail: function() {
+        $company.html('<div class="loading">Please try again soon.</div>')
+      }
+    })
+/*
     $.getJSON(url_slug)
      .done( function(data) {
         companydata = data;
-        /*
-        ** write code like in loadStocks() to display these company data metrics
-        */
+        //
+        // write code like in loadStocks() to display these company data metrics
+        //
 
         })
      .fail( function(d, textStatus, error) {
       $company.html("Sorry! Can't load company data at the moment")
-        /*
-        console.log("getJSON failed, status: " +
-              textStatus + ", error: "+error);
-        */
-     })
 
+        // console.log("getJSON failed, status: " + textStatus + ", error: "+error);
+
+     })
+*/
     // swap visibility
     $('#indice a.current').removeClass('current');
     $(this).addClass('current');
