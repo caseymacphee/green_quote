@@ -54,10 +54,24 @@ loadStocks();
   });
 
 
+  function success(companydata) {
+    // if the data is JSON, the HTML has to be built first to get back html
+    var $company = $('#company');
+    var newContent = '';
+
+    for (var metric in companydata) {
+      newContent = "<li>"+metric.key+":"+metric.value+"<li>";
+      }
+
+    newContent = "<ul>" + newContent + "<ul>";
+
+    // if the data is html, it can just be written
+    $company.html ($(companydata). find("li")).hide().fadeIn(300);
+  }
+
   // Click on one of the stocks to load a company
   $('#content').on('click', '#stocks li a', function (e) {
     e.preventDefault();
-    var $company = $('#company');
 
     // This is a slug, because the page doesn't exist.
     //  It is a URL that points to a Flask route which will return
@@ -76,26 +90,13 @@ loadStocks();
       url: data[0] + '/',
       data: data[1],
       //timeout: 3000,
-      //success: success,
-      beforeSend: function() {
-        $company.append('<div id="load">Loading</div>');
-      },
-      complete: function() {
-        $("#loading").remove();
-      },
-      success: function(companydata) {
-        // if the data is JSON, the HTML has to be built first to get back html
-        var newContent = '';
-
-        for (var metric in companydata) {
-          newContent = "<li>"+metric.key+":"+metric.value+"<li>";
-          }
-
-        newContent = "<ul>" + newContent + "<ul>";
-
-        // if the data is html, it can just be written
-        $company.html ($(companydata). find("li")).hide().fadeIn(300);
-      },
+      //beforeSend: function() {
+      //  $company.append('<div id="load">Loading</div>');
+      //},
+      //complete: function() {
+      //  $("#loading").remove();
+      //},
+      success: success
       fail: function() {
         $company.html('<div class="loading">Please try again soon.</div>')
       }
