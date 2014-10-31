@@ -61,13 +61,13 @@ loadStocks();
     var newContent = '';
 
     for (var metric in companydata) {
-      newContent = "<li>"+metric+":"+companydata[metric]+"<li>";
+      newContent += "<li>"+metric+":"+companydata[metric]+"<li>";
       }
 
     newContent = "<ul>" + newContent + "<ul>";
 
     // if the data is html, it can just be written
-    $company.html ($(companydata). find("li")).hide().fadeIn(300);
+    $company.html(newContent).find("li").hide().fadeIn(300);
   }
 
   // Click on one of the stocks to load a company
