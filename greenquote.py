@@ -72,7 +72,7 @@ def get_company_entry(id):
 def show_indexes():
     return render_template('base.html')
 
-@app.route('/<id>')
+@app.route('/lc.html#sym=<id>')
 def show_company_profile():
 	query_result = get_company_entry(id)
 	return query_result
