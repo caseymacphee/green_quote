@@ -73,6 +73,11 @@ def get_company_entry(id):
     curs.execute("SELECT * from quotes where index = '{}'".format(id))
     quotes = curs.fetchall()
 
+    print "Typeof Quotes %s" % type(quotes)
+    print "QWuotes follow:"
+    print quotes
+    print "Quotes[0] type: %s" % type(quotes[0])
+
     curs.execute("SELECT * from companies where index = '{}'".format(id))
     statistics = curs.fetchall()
 
