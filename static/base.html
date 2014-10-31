@@ -6,11 +6,11 @@
     <!--[if lt IE9]>
     <script src="http://html5.shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href='{{url_for('static', 'base.css')}}')>
-    <link rel="stylesheet" href='../css/skeleton.css')>
-    <link rel="stylesheet" href='../css/layout.css')>
-    <link rel="stylesheet" href='../css/style.css')>
-git   </head>
+    <link rel="stylesheet" href="{{url_for('static', 'css/base.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', 'css/skeleton.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', 'css/layout.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', 'css/style.css')}}">
+   </head>
   <body>
     <header>
       <aside id="user-controls">
@@ -53,6 +53,6 @@ git   </head>
     </footer>
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="../js/gquote.js"</script>
+    <script src="{{url_for('static', 'gquote.js')}}"></script>
   </body>
 </html>
