@@ -76,8 +76,11 @@ def get_company_entry(id):
     print "Values will follow:"
     print values
 
+    print "Values[0] will follow:"
+    print values[0]
+
     vlist = []
-    for value in values:
+    for value in values[0]:
         vlist.append(value)
     print "vlist follows:"
     print vlist
