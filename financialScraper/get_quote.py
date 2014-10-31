@@ -9,7 +9,6 @@ def _request(param):
     symbol = param[0]
     dictionary = param[1]
     index = param[2]
-
     price, change = ('l1', 'c')
     url = 'http://finance.yahoo.com/d/quotes.csv?s=%s&f=%s' % (symbol, price)
     req = Request(url)
@@ -23,7 +22,7 @@ def _request(param):
     numchange, perchange = currentchange.split(' - ')
     symbol = symbol + ':' + index
     dictionary[symbol] = [currentprice, numchange, perchange]
-    print dictionary[symbol]
+    print symbol, dictionary[symbol]
 
 def get_quote(index, symbollist, ext = ''):
     """
@@ -32,8 +31,8 @@ Returns a dictionary with the keys as symbols, and the values being a dictionary
 information. 
     """
     stock_dict = {}
-    for index, symbol in enumerate(symbollist):
-        symbollist[index] = (symbol + ext, stock_dict, index)
+    for i, symbol in enumerate(symbollist):
+        symbollist[i] = (symbol + ext, stock_dict, index)
     pool = Pool(5)
         ##map symbol list to _get_data() fn. return tuple, with (symbol, statlist).
     pool.map(_request, symbollist)
@@ -41,22 +40,22 @@ information.
 
 def current_quote():
     indexlist = []
-    indexlist.append('dataFiles/nsdqctsymbols.csv')
-    indexlist.append('dataFiles/nsdqesymbols.csv')
-    indexlist.append('dataFiles/nyesymbols.csv')
-    indexlist.append('dataFiles/tsxogsymbols.csv')
-    indexlist.append('dataFiles/tsxctsymbols.csv')
-    indexlist.append('dataFiles/tsxvctsymbols.csv')
-    indexlist.append('dataFiles/tsxvogsymbols.csv')
+    indexlist.append('dataFiles/nsdqct.csv')
+    indexlist.append('dataFiles/nsdqe.csv')
+    indexlist.append('dataFiles/nye.csv')
+    indexlist.append('dataFiles/tsxog.csv')
+    indexlist.append('dataFiles/tsxct.csv')
+    indexlist.append('dataFiles/tsxvct.csv')
+    indexlist.append('dataFiles/tsxvog.csv')
 
     indexlist = load_files(indexlist)
 
     current_quotes = []
     for index, symbollist in indexlist.iteritems():
         #print index
-        if index == 'tsxvctsymbols.csv' or index == 'tsxvogsymbols.csv':
+        if index == 'tsxvct.csv' or index == 'tsxvog.csv':
             current_quotes.append(get_quote(index, symbollist, '.V'))
-        elif index == 'tsxctsymbols.csv' or index == 'tsxogsymbols.csv':        
+        elif index == 'tsxct.csv' or index == 'tsxog.csv':        
             current_quotes.append(get_quote(index, symbollist, '.TO'))
         else:
             current_quotes.append(get_quote(index, symbollist))
