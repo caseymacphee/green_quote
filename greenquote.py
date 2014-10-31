@@ -75,7 +75,7 @@ def show_indexes():
     return render_template('base.html')
 
 @app.route('/lc/<id>')
-def show_company_profile():
+def show_company_profile(id):
     # Flask doesn't support ':' in route, so underscore is passed in
     # but ':' is in the key
     id_pieces = id.split("_")
