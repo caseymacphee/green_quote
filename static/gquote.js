@@ -10,30 +10,40 @@ $(function() {
   });
 
   function loadStocks() {
-    $.getJSON('stocks.json')
-    .done( function(data){
+    $.getJSON('/static/stocks.json')
+    .done( function(data) {
       stocks = data;
-    }).fail( function() {
-      $('#indice').html("Sorry! Can't load stocks at the moment")
+      console.log(stocks.length)
+      console.log(typeof(stocks))
+      console.log(stocks)
+    }).fail( function(d, textStatus, error) {
+      $('#stocks').html("Sorry! Can't load stocks at the moment");
+      console.log("getJSON failed, status: " +
+            textStatus + ", error: "+error);
     })
   }
 
 loadStocks();
 
   // The stocks are loaded when an event is triggered
-  $("#content").on('click', '#indice a', function(e) {
+  $("#content").on('click', '.indices-button', function(e) {
 
     e.preventDefault();
-    var indice = this.id.toUpperCase();
+    var indice = this.id;
 
     var newContent = '';
-    for (var i = 0; i < stocks[indice].length; i++) {
-      // There will be a lot. Maybe this go in a scroll box?
-      newContent += '<li><span class="stocks">' + stocks[indice][i].unique + '</span>';
-      newContent += '<a href="placeholder.html#';
-      newContent += stocks[indice][i].friendly.replace(/ /g, '-') + '">';
-      newContent += stocks[indice][i].friendly + '</a></li>';
+    key_list = Object.keys(stocks[indice])
+
+
+    var company_dict = stocks[indice]
+    for (var company in company_dict){
+        attribute_array = company_dict[company]
+        newContent += '<li><span class="stocks">' + attribute_array[0] + '</span>';
+        newContent += '<a href="placeholder.html#';
+        //newContent += stocks[indice][i][1] + '">';
+        newContent += attribute_array[1] + '</a></li>';
     }
+    // There will be a lot. Maybe this go in a scroll box?
 
     $('#stocks').html('<ul>' + newContent + '<ul>');
 
