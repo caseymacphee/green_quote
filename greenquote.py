@@ -39,7 +39,7 @@ table_labels = [
     "Trailing Annual Dividend Yield3",
     "5 Year Average Dividend Yield 4",
     "Last Split Factor 2",
-    "Last Split Date 3",]
+    "Last Split Date 3"]
 
 def connect_db():
 	return psycopg2.connect(app.config['DATABASE'])
@@ -64,21 +64,21 @@ def teardown_request(exception):
 def get_company_entry(id):
 	conn = get_database_connection()
 	curs = conn.cursor()
-	curs.execute('SELECT * from companies where index = {}'.format(id))
+	curs.execute("SELECT * from companies where index = '{}'".format(id))
 	values = curs.fetchall()
 	return jsonify(dict(zip(table_labels, values)))
 
 def get_index_stats(id):
 	conn = get_database_connection()
 	curs = conn.cursor()
-	curs.execute('SELECT * FROM stats WHERE index = {}'.format(id))
+	curs.execute("SELECT * FROM stats WHERE index = '{}'".format(id))
 	values = curs.fetchall()
 	return jsonify(dict(zip(table_labels, values)))
 
 def get_current_quotes(id):
 	conn= get_database_connection()
 	curs = conn.cursor()
-	curs.execute('SELECT * FROM quotes WHERE index = {}'.format(id))
+	curs.execute("SELECT * FROM quotes WHERE index = '{}'".format(id))
 	values = curs.fetchall()
 	current_price_change = {"price": values}
 	return jsonify(current_price_change)
@@ -88,17 +88,23 @@ def show_indexes():
     return render_template('base.html')
 
 @app.route('/lc/<id>')
-def show_company_profile():
+def show_company_profile(id):
+	id_pieces = id.split('_')
+	id = (':').join(id_pieces)
 	query_result = get_company_entry(id)
 	return query_result
 
 @app.route('/index/<id>')
-def show_index_profile():
+def show_index_profile(id):
+	id_pieces = id.split('_')
+	id = (':').join(id_pieces)
 	query_result = get_index_stats(id)
 	return query_result
 
 @app.route('/quote/<id>')
-def show_company_quote():
+def show_company_quote(id):
+	id_pieces = id.split('_')
+	id = (':').join(id_pieces)
 	query_result = get_current_quotes(id)
 	return query_result
 
