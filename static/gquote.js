@@ -81,7 +81,7 @@ loadStocks();
     // Flask does not like ':' in its URL's
     // The Flask route will look for underscore and convert to ':'
     // and stock symbols with NEVER have underscores, right?
-    url_slug.replace(':','_');
+    url_slug = url_slug.replace(':','_');
 
     //var data = url_slug.split('/')
 
