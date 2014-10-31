@@ -61,7 +61,7 @@ loadStocks();
     var newContent = '';
 
     for (var metric in companydata) {
-      newContent = "<li>"+metric.key+":"+metric.value+"<li>";
+      newContent = "<li>"+metric+":"+companydata[metric]+"<li>";
       }
 
     newContent = "<ul>" + newContent + "<ul>";
