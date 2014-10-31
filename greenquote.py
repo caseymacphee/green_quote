@@ -70,20 +70,20 @@ def teardown_request(exception):
 def get_company_entry(id):
     conn = get_database_connection()
     curs = conn.cursor()
-    curs.execute("SELECT * from quotes where index = '{}'".format(id))
-    quotes = curs.fetchall()
+    # curs.execute("SELECT * from quotes where index = '{}'".format(id))
+    # quotes = curs.fetchall()
 
-    print "Typeof Quotes %s" % type(quotes)
-    print "QWuotes follow:"
-    print quotes
-    print "Quotes[0] type: %s" % type(quotes[0])
+    # print "Typeof Quotes %s" % type(quotes)
+    # print "QWuotes follow:"
+    # print quotes
+    # print "Quotes[0] type: %s" % type(quotes[0])
 
     curs.execute("SELECT * from companies where index = '{}'".format(id))
     statistics = curs.fetchall()
 
     vlist = []
-    for value in quotes[0]:
-        vlist.append(value)
+    # for value in quotes[0]:
+    #     vlist.append(value)
     for value in statistics[0]:
         vlist.append(value)
 
