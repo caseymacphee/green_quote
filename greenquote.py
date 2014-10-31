@@ -17,10 +17,10 @@ app.config['SECRET_KEY'] = os.environ.get(
 	)
 
 table_labels = [
-    "Universal Stock Symbol",
-    "Current Price",
-    "Num Change",
-    "% Change",
+    # "Universal Stock Symbol",
+    # "Current Price",
+    # "Num Change",
+    # "% Change",
     "Universal Stock Symbol",
     "Date Time Gathered",
     "Market Cap (intraday)",
