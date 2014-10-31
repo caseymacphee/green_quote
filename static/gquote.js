@@ -61,7 +61,17 @@ loadStocks();
     var newContent = '';
 
     for (var metric in companydata) {
-      newContent += "<li>"+metric+":"+companydata[metric]+"<li>";
+      if (metric ==     "200-Day Moving Average" ||
+          metric =="% Held by Insiders" ||
+          metric =="% Held by Institutions" ||
+          metric =="Trailing Annual Dividend Yield" ||
+          metric =="Trailing Annual Dividend Yield %" ||
+          metric =="5 Year Average Dividend Yield" ||
+          metric =="Last Split Factor" ||
+          metric =="Last Split Date") {
+        continue
+      } else {
+        newContent += "<li>"+metric+":"+companydata[metric]+"<li>";
       }
 
     newContent = "<h2>Company Metrics</h2><ul>" + newContent + "<ul>";
