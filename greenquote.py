@@ -76,7 +76,11 @@ def get_company_entry(id):
     print "Values will follow:"
     print values
 
-    zip_tablevalues = zip(table_labels, values) # should be list of tuples
+    vlist = []
+    for value in values:
+        vlist.append(value)
+
+    zip_tablevalues = zip(table_labels, vlist) # should be list of tuples
     print "zip_tablevalues will follow:"
     print zip_tablevalues
 
