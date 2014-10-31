@@ -17,6 +17,7 @@ app.config['SECRET_KEY'] = os.environ.get(
 	)
 
 table_labels = [
+    "Universal Stock Symbol",
     "Date Time Gathered",
     "Market Cap (intraday)5",
     "Enterprise Value 3",
@@ -74,9 +75,15 @@ def get_company_entry(id):
     print "after fetchall"
     print "Values will follow:"
     print values
-    print "dict(zip(values)) will follow:"
-    tojson = dict(zip(table_labels, values))
+
+    zip_tablevalues = zip(table_labels, values) # should be list of tuples
+    print "zip_tablevalues will follow:"
+    print zip_tablevalues
+
+    print "dict(zip_tablevalues) will follow:"
+    tojson = dict(zip_tablevalues)
     print tojson
+
     return jsonify(tojson)
 
 @app.route('/')
