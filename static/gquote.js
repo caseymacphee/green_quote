@@ -87,7 +87,7 @@ loadStocks();
     $.ajax({
       //type: "GET",
       dataType: "json",
-      url: data[0] + '/',
+      url: data[0],
       data: data[1],
       //timeout: 3000,
       //beforeSend: function() {
