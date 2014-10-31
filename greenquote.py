@@ -68,7 +68,7 @@ def get_company_entry(id):
     print "affer connection"
     curs = conn.cursor()
     print "have a cursor"
-    curs.execute('SELECT * from companies where index = "{}"'.format(id))
+    curs.execute("SELECT * from companies where index = '{}'".format(id))
     print "executed select"
     values = curs.fetchall()
     print "after fetchall"
