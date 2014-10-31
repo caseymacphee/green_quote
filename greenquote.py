@@ -39,7 +39,7 @@ table_labels = [
     "Trailing Annual Dividend Yield3",
     "5 Year Average Dividend Yield 4",
     "Last Split Factor 2",
-    "Last Split Date 3",]
+    "Last Split Date 3"]
 
 def connect_db():
 	return psycopg2.connect(app.config['DATABASE'])
@@ -72,7 +72,12 @@ def get_company_entry(id):
     print "executed select"
     values = curs.fetchall()
     print "after fetchall"
-    return jsonify(dict(zip(table_labels, values)))
+    print "Values will follow:"
+    print values
+    print "dict(zip(values)) will follow:"
+    tojson = dict(zip(table_labels, values))
+    print tojson
+    return jsonify(tojson)
 
 @app.route('/')
 def show_indexes():
