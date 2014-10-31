@@ -84,11 +84,20 @@ loadStocks();
     //load_title = load_title.replace('#', " #");
     //$('company').load(load_title);
 
-    $.ajax({
-      //type: "GET",
+    $.ajax(data[0], {
+      type: 'GET',
       dataType: "json",
-      url: data[0],
-      data: data[1],
+      data: {id: data[1]},
+      success: success,
+    }).done(function() {
+      console.log("we're done")
+    }).fail(function() {
+      alert("we failed this time")
+    })
+      //type: "GET",
+      //dataType: "json",
+      //url: data[0],
+      //data: data[1],
       //timeout: 3000,
       //beforeSend: function() {
       //  $company.append('<div id="load">Loading</div>');
@@ -99,8 +108,8 @@ loadStocks();
       //fail: function() {
       //  $company.html('<div class="loading">Please try again soon.</div>')
       //}
-      success: success
-    })
+      //success: success
+
 /*
     $.getJSON(url_slug)
      .done( function(data) {
