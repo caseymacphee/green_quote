@@ -10,7 +10,7 @@ $(function() {
   });
 
   function loadStocks() {
-    $.getJSON('stocks.json')
+    $.getJSON('/stocks.json')
     .done( function(data){
       stocks = data;
     }).fail( function() {
