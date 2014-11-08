@@ -38,7 +38,8 @@ loadStocks();
     stock_list = stocks[indice]
     for( var stock_entry in stock_list) {
         company_info = stock_list[stock_entry]
-        company_symbol = company_info[0].replace(":", "_");
+
+        // company_symbol = company_info[0].replace(":", "_");
 
         // build an 'li' for the company with a link
         newContent += "<li><a class='stocks' href='/lc/";

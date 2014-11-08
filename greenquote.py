@@ -17,6 +17,7 @@ app.config['SECRET_KEY'] = os.environ.get(
 	)
 
 table_labels = [
+################################There is likely a one off bug in here### *** issue
     # "Universal Stock Symbol",
     # "Current Price",
     # "Num Change",
@@ -48,9 +49,15 @@ table_labels = [
     "Last Split Date"]
 
 def connect_db():
-	return psycopg2.connect(app.config['DATABASE'])
+    """
+    Returns the the database connection.
+    """
+    return psycopg2.connect(app.config['DATABASE'])
 
 def get_database_connection():
+	"""
+	Returns dabase...
+	"""
 	db = getattr(g, 'db', None)
 	if db is None:
 		g.db = db = connect_db()
@@ -74,9 +81,8 @@ def get_company_entry(id):
     curs = conn.cursor()
     # curs.execute("SELECT * from quotes where index = '{}'".format(id))
     # quotes = curs.fetchall()
-
-    # print "Typeof Quotes %s" % type(quotes)
-    # print "QWuotes follow:"
+    # print "Type of Quotes %s" % type(quotes)
+    # print "Quotes follow:"
     # print quotes
     # print "Quotes[0] type: %s" % type(quotes[0])
 
@@ -85,7 +91,7 @@ def get_company_entry(id):
 
     vlist = []
     # for value in quotes[0]:
-    #     vlist.append(value)
+    #   vlist.append(value)
     for value in statistics[0]:
         vlist.append(value)
 
@@ -118,23 +124,21 @@ def show_company_profile(id):
 
     # Flask doesn't support ':' in route, so underscore is passed in
     # but ':' is in the key
-    id_pieces = id.split("_")
-    id = (':').join(id_pieces)
+    # id_pieces = id.split("_")
+    # id = (':').join(id_pieces)
 
     query_result = get_company_entry(id)
     return query_result
 
 @app.route('/index/<id>')
 def show_index_profile(id):
-	id_pieces = id.split('_')
-	id = (':').join(id_pieces)
+    ##deleted transition, this should be done in javascript.
 	query_result = get_index_stats(id)
 	return query_result
 
 @app.route('/quote/<id>')
 def show_company_quote(id):
-	id_pieces = id.split('_')
-	id = (':').join(id_pieces)
+    ##deleted transition, this should be done in javascript.
 	query_result = get_current_quotes(id)
 	return query_result
 

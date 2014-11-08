@@ -1,3 +1,7 @@
+##### Yahoo Web scraper for financial information #####
+##### Co - Collaborators Charles Gust and Casey MacPhee #####
+##### MIT License 2014 #####
+
 #!/usr/bin/env python
 import pandas as pd
 import urllib2
@@ -33,7 +37,7 @@ a list of statistical data for that information.
 
     data_lists = {}
     for index, symbol in enumerate(symbollist):
-        symbollist[index] = (symbol + ext, data_lists, index_name)
+        symbollist[index] = (symbol + ext, data_lists, index_name, symbol)
     pool = Pool(5)
         ##map symbol list to _get_data() fn. return tuple, with (symbol, statlist).
     
@@ -41,10 +45,11 @@ a list of statistical data for that information.
     return data_lists
 
 def _get_data(param):
-    symbol = param[0]
+    symbol_with_ext = param[0]
     data_lists = param[1]
     index = param[2]
-    url = "http://finance.yahoo.com/q/ks?s={}+Key+Statistics".format(symbol)
+    symbol = param[3]
+    url = "http://finance.yahoo.com/q/ks?s={}+Key+Statistics".format(symbol_with_ext)
     try:
         resp = urllib2.urlopen(url, timeout = 10)
 
@@ -56,9 +61,15 @@ def _get_data(param):
             formatted_date_stamp = current_date_time.strftime("%A %B %d, %Y")
             
             result_list.insert(0,formatted_date_stamp)
+            ###
             full_symbol = symbol + ':' + index
             table_data_list = []
+            ###Here we add the date stamp to the front of the scraped table.###
             table_data_list.append(formatted_date_stamp)
+            ###This index set is for the choices that we wanted to show###
+            ################## 0,1,2,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10,11,12,13,14,15,16,17,18,19,20,21## There are 22 total stats.
+            ###There is a one off error somewhere, so that there are values commented out on the front end for inaccurate results.
+            ###This could be the couprlet. 
             keystatrows = set([1,2,3,12,16,19,20,22,27,31,33,35,36,37,38,42,43,50,51,52,56,57])
             for index, stat in enumerate(result_list):
                 if index in keystatrows:
@@ -70,14 +81,12 @@ def _get_data(param):
                 print full_symbol, "Not found"
             else:
                 print full_symbol, "Got data"
-            
             data_lists[full_symbol] = table_data_list
         else:
             print resp.getcode(), symbol
     except:
         print "Timed out for {}".format(symbol)
 
-    
 
 def add_labels(data_lists, table_labels):
     """
@@ -146,7 +155,11 @@ replacing them with the appropriate number value. The function then returns a ne
     return fltpoint_dict
 
 def run_stats(index_dicts):
-
+    """
+    Takes a dictionary of dictionaries that contain the company stock symbol as the key and lists as values which contain
+    the statistic values as floats. 
+    """
+    ### Note that significant values are not taken into account at this time### **** issue
     stat_dataframes = {}
     for index, company_dict in index_dicts.iteritems():
         index_df = pd.DataFrame.from_dict(company_dict, orient = 'index')
@@ -170,6 +183,12 @@ def combine_indexes(index_list):
     return NA_companies_frame
 
 def scraper():
+    """
+    Data files must be stored in a new directory called 'dataFiles/your_file_here.csv' in the current working
+    directory. The function takes a value called table_labels which include the labels for the values grabbed from 
+    the value of 'data_table_pattern' in the helper function '_get_data()' which takes an html element to search the 
+    yahoo finance 'key statistic' page.
+    """
     indexlist = []
     indexlist.append('dataFiles/nsdqct.csv')
     indexlist.append('dataFiles/nsdqe.csv')

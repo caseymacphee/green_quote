@@ -30,6 +30,7 @@ pool = Pool(20)
 
 pool.map(download, urls)
 
+###FROM GEVENT TUTORIAL###
 # import gevent.monkey
 # gevent.monkey.patch_socket()
 
