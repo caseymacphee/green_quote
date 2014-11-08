@@ -43,7 +43,7 @@ loadStocks();
 
         // build an 'li' for the company with a link
         newContent += "<li><a class='stocks' href='/lc/";
-        newContent += company_symbol + "'>";
+        newContent += company_info[0] + "'>";
         newContent += company_info[1];
         newContent += "</a></li>";
     }
