@@ -3,9 +3,6 @@ from gevent.pool import Pool
 from urllib2 import Request, urlopen
 import pandas as pd
 def _request(param):
-    """
-
-    """
     symbol_with_ext = param[0]
     dictionary = param[1]
     index = param[2]
@@ -23,6 +20,7 @@ def _request(param):
     numchange, perchange = currentchange.split(' - ')
     ###Converting the symbol to include an extension which in this case is the market and index###
     symbol = symbol + ':' + index
+    
     dictionary[symbol] = [currentprice, numchange, perchange]
     print symbol, dictionary[symbol]
 

@@ -22,10 +22,14 @@ engine = create_engine(os.environ.get('DATABASE_URL'))
 
 while running:
 	# time.sleep(3600)
-	companies_data_frame, stats_data_frame = getqf.scraper()
-	get_quotes = get_quote.current_quote()
-
-	companies_data_frame.to_sql(name='companies', con = engine, if_exists = 'replace')
-	stats_data_frame.to_sql(name='stats', con = engine, if_exists = 'replace')
-	get_quotes.to_sql(name='quotes', con = engine, if_exists = 'replace')
-
+	try:
+		companies_data_frame, stats_data_frame = getqf.scraper()
+		get_quotes = get_quote.current_quote()
+	except:
+		print "Could not scrape current quotes."
+	try:
+		companies_data_frame.to_sql(name='companies', con = engine, if_exists = 'replace')
+		stats_data_frame.to_sql(name='stats', con = engine, if_exists = 'replace')
+		get_quotes.to_sql(name='quotes', con = engine, if_exists = 'replace')
+	except:
+		print "Could not load financial data."
