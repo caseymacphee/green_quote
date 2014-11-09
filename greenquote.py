@@ -5,7 +5,7 @@ from flask import jsonify
 import psycopg2
 import json
 from json import load
-
+from flask import render_template
 app = Flask(__name__)
 
 app.config['DATABASE'] = os.environ.get(
@@ -17,35 +17,35 @@ app.config['SECRET_KEY'] = os.environ.get(
 	)
 
 table_labels = [
+    # "Universal Stock Symbol",
+    # "Current Price",
+    # "Num Change",
+    # "% Change",
+    "Universal Stock Symbol",
     "Date Time Gathered",
-    "Market Cap (intraday)5",
-    "Enterprise Value 3",
-    "Trailing P/E (ttm, intraday)","PEG Ratio (5 yr expected) 1",
+    "Market Cap (intraday)",
+    "Enterprise Value",
+    "Trailing P/E (ttm, intraday)",
+    "PEG Ratio (5 yr expected)",
     "Profit Margin (ttm)",
     "Revenue (ttm)",
     "Gross Profit (ttm)",
-    "EBITDA (ttm) 6",
+    "EBITDA (ttm)",
     "Diluted EPS (ttm)",
     "Total Debt/Equity (mrq)",
     "Levered Free Cash Flow (ttm)",
-    "52-Week Change3",
-    "52-Week High 3",
-    "52-Week Low 3",
-    "50-Day Moving Average 3",
-    "200-Day Moving Average 3",
-    "% Held by Insiders 1",
-    "% Held by Institutions 1",
-    "Trailing Annual Dividend Yield 3",
-    "Trailing Annual Dividend Yield3",
-    "5 Year Average Dividend Yield 4",
-    "Last Split Factor 2",
-    "Last Split Date 3",]
-
-def load_master_index():
-    json_data = open('masterjsonobject.json')
-    data = json.load(json_data)
-    json_data.close()
-    return data
+    "52-Week Change",
+    "52-Week High",
+    "52-Week Low",
+    "50-Day Moving Average",
+    "200-Day Moving Average",
+    "% Held by Insiders",
+    "% Held by Institutions",
+    "Trailing Annual Dividend Yield",
+    "Trailing Annual Dividend Yield %",
+    "5 Year Average Dividend Yield",
+    "Last Split Factor",
+    "Last Split Date"]
 
 def connect_db():
 	return psycopg2.connect(app.config['DATABASE'])
@@ -67,21 +67,44 @@ def teardown_request(exception):
 			db.commit()
 		db.close()
 
+
 def get_company_entry(id):
-	conn = get_database_connection()
-	curs = conn.cursor()
-	curs.execute('SELECT * from companies where index = {}'.format(id))
-	values = curs.fetchall()
-	return jsonify(dict(zip(table_labels, values)))
+    conn = get_database_connection()
+    curs = conn.cursor()
+    # curs.execute("SELECT * from quotes where index = '{}'".format(id))
+    # quotes = curs.fetchall()
+
+    # print "Typeof Quotes %s" % type(quotes)
+    # print "QWuotes follow:"
+    # print quotes
+    # print "Quotes[0] type: %s" % type(quotes[0])
+
+    curs.execute("SELECT * from companies where index = '{}'".format(id))
+    statistics = curs.fetchall()
+
+    vlist = []
+    # for value in quotes[0]:
+    #     vlist.append(value)
+    for value in statistics[0]:
+        vlist.append(value)
+
+    zip_tablevalues = zip(table_labels, vlist) # should be list of tuples
+    tojson = dict(zip_tablevalues)
+    return jsonify(tojson)
 
 @app.route('/')
 def show_indexes():
-	return load_master_index()
+    return render_template('base.html')
 
-@app.route('/<id>')
-def show_company_profile():
-	query_result = get_company_entry(id)
-	return query_result
+@app.route('/lc/<id>')
+def show_company_profile(id):
+    # Flask doesn't support ':' in route, so underscore is passed in
+    # but ':' is in the key
+    id_pieces = id.split("_")
+    id = (':').join(id_pieces)
+
+    query_result = get_company_entry(id)
+    return query_result
 
 if __name__ == '__main__':
 	app.run(debug=True)

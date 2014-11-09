@@ -6,11 +6,11 @@
     <!--[if lt IE9]>
     <script src="http://html5.shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href='../css/base.css')>
-    <link rel="stylesheet" href='../css/skeleton.css')>
-    <link rel="stylesheet" href='../css/layout.css')>
-    <link rel="stylesheet" href='../css/style.css')>
-git   </head>
+    <link rel="stylesheet" href='{{url_for('static', filename="css/base.css")}}'>
+    <link rel="stylesheet" href='{{url_for('static', filename="css/skeleton.css")}}'>
+    <link rel="stylesheet" href='{{url_for('static', filename="css/layout.css")}}'>
+    <link rel="stylesheet" href='{{url_for('static', filename="css/style.css")}}'>
+   </head>
   <body>
     <header>
       <aside id="user-controls">
@@ -24,19 +24,19 @@ git   </head>
       </nav>
     </header>
     <main>
-      <h1>Green Quote</h1>
+      <h1 class="twelve columns">Green Quote</h1>
       <section id="content">
         <div id="container">
           <div class="three columns third">
             <div id="indice">
               <h4>Indices Available for Green Quotes</h4>
-              <p><button id="NSDQCT-indice" href="static/indice-NSDQCT.html" class="indices-button">NASDAQ CleanTech</button></p>
-              <p><button id="NSDQE-indice" href="static/indice-NSDQE.html" class="indices-button">NASDAQ Energy Index</button></p>
-              <p><button id="NYE-indice" href="static/indice-NYE.html" class="indices-button">New York Energy Index</button></p>
-              <p><button id="TSXCT-indice" href="static/indice-TSXCT.html" class="indices-button">Toronto CleanTech</button></p>
-              <p><button id="TSXOG-indice" href="static/indice-TSXOG.html" class="indices-button">Toronto OG</button></p>
-              <p><button id="TSXVCT-indice" href="static/indice-TSXVCT.html" class="indices-button">Toronto Venture</button></p>
-              <p><button id="TSXVOG-indice" href="static/indice-TSXVOG.html" class="indices-button">Toronto Venture OG</button></p>
+              <p><button id="nsdqct" href="static/indice-NSDQCT.html" class="indices-button">NASDAQ CleanTech</button></p>
+              <p><button id="nsdqe" href="static/indice-NSDQE.html" class="indices-button">NASDAQ Energy Index</button></p>
+              <p><button id="nye" href="static/indice-NYE.html" class="indices-button">New York Energy Index</button></p>
+              <p><button id="tsxct" href="static/indice-TSXCT.html" class="indices-button">Toronto CleanTech</button></p>
+              <p><button id="tsxog" href="static/indice-TSXOG.html" class="indices-button">Toronto OG</button></p>
+              <p><button id="tsxvct" href="static/indice-TSXVCT.html" class="indices-button">Toronto Venture</button></p>
+              <p><button id="tsxvog" href="static/indice-TSXVOG.html" class="indices-button">Toronto Venture OG</button></p>
             </div><!-- indice -->
           </div><!-- first column -->
           <div class="three columns third">
@@ -53,6 +53,6 @@ git   </head>
     </footer>
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="../js/gquote.js"</script>
+    <script src="{{url_for('static', filename='gquote.js')}}"></script>
   </body>
 </html>
